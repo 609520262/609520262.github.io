@@ -5843,6 +5843,20 @@ html {
     position: relative;
 }
 
+.ds-banner--medium.ds-banner1 {
+    background-image: url(https://ai.bdstatic.com/file/4C23CBE39F83451982F5D1619F7AF62D);
+    background-size: cover;
+    height: 540px;
+    position: relative;
+}
+
+.ds-banner--medium.ds-banner3 {
+    background-image: url(/assets/quadcopter.png);
+    background-size: cover;
+    height: 540px;
+    position: relative;
+}
+
 .ds-banner--medium.ds-banner .ds-banner__content {
     position: absolute;
     margin-top: 0;
