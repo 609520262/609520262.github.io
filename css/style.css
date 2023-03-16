@@ -15985,7 +15985,6 @@ article.ds-card {
     background-repeat: no-repeat;
     background-size: 100% auto;
     color: #fff;
-    min-width: 1200px;
 }
 
 .intro-header .customh1 {
@@ -16025,10 +16024,12 @@ article.ds-card {
     margin-top: 40px;
     height: 480px;
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .ds-container-left {
-    width: 46%;
+    width: 700px;
     height: 480px;
     margin-left: 1.5%;
     float: left;
@@ -16036,10 +16037,11 @@ article.ds-card {
     border-radius: 6px;
     border: 1px solid rgba(0, 0, 0, .12);
     overflow: hidden;
+    flex: 1;
 }
 
 .ds-container-right {
-    width: 46%;
+    width: 700px;
     height: 480px;
     margin-right: 1.5%;
     float: right;
@@ -16047,6 +16049,7 @@ article.ds-card {
     border-radius: 6px;
     border: 1px solid rgba(0, 0, 0, .12);
     overflow: hidden;
+    flex: 1;
 }
 
 .ds-container .ds-photo-left {
