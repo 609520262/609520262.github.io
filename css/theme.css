@@ -6326,6 +6326,7 @@ html {
     margin-top: 63px;
     overflow: visible;
     align-items: start;
+    min-width: 1200px;
 }
 
 .wy-nav-side {
