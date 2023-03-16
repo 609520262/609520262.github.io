@@ -21,11 +21,11 @@ aside.toc {
     height: fit-content;
     max-height: calc(100vh - 90px);
     padding-top: 3rem;
-
-   
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
-
-
 
 article,
 aside,
@@ -52,7 +52,6 @@ video {
 audio:not([controls]) {
     display: none
 }
-
 
 * {
     -webkit-box-sizing: border-box;
@@ -5438,11 +5437,9 @@ input[type=radio][disabled] {
 }
 
 a {
-    color: #4e4e4e;
+    color: #2980b9;
     text-decoration: none;
-    font-size: 120%;
     cursor: pointer
-
 }
 
 a:hover {
@@ -5623,12 +5620,18 @@ article ul {
 article ul li {
     list-style: none;
     line-height: 2.0;
-    
 }
-.document-toc-container ul li{
-  
-    padding: .3rem 1.0rem;
+
+.document-toc-container ul li {
+    padding: 0;
     border-left: 2px solid #cdcdcd;
+}
+
+.toc a.active {
+    background-color: #0085f230;
+    border-left: 2px solid #0069c2;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .rst-content .section ul li p:last-child,
@@ -5843,15 +5846,14 @@ html {
     margin: 12px 0 0;
     display: block;
     font-weight: 700;
-    text-transform: uppercase;
     font-size: 1rem;
-    white-space: nowrap
+    white-space: nowrap;
+    font-family: Roboto Slab, ff-tisa-web-pro, Georgia, Arial, sans-serif;
 }
-.wy-menu-vertical summary{
 
+.wy-menu-vertical summary {
     font-size: 1.2rem;
 }
-
 
 .wy-menu-vertical ul {
     margin-bottom: 0
@@ -6095,7 +6097,6 @@ html {
 
 .wy-menu-vertical li ul {
     margin-bottom: 0;
-    
 }
 
 .wy-menu-vertical li ul li a {
@@ -6112,14 +6113,12 @@ html {
     font-size: 100%;
     color: #4e4e4e;
     font-weight: 100;
-    
-   
 }
 
-
-.wy-menu-vertical a:hover {
-    background-color:#0085f230;
-    border-left: 2px  solid #0069c2 ;
+.wy-menu-vertical a:hover,
+.wy-menu-vertical a.active {
+    background-color: #0085f230;
+    border-left: 2px solid #0069c2;
     font-weight: 600;
     cursor: pointer;
 }
@@ -6136,6 +6135,15 @@ html {
 
 .wy-menu-vertical a:active button.toctree-expand {
     color: #fff
+}
+
+.toc a {
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 25px;
+    padding: .4045em 1.618em;
+    display: block;
+    position: relative;
 }
 
 .wy-side-nav-search {
@@ -7608,12 +7616,11 @@ span[id*=MathJax-Span] {
     font-display: block
 }
 
-#id4 span{
+#id4 span {
     display: none;
 }
 
-.wy-menu-vertical summary::before{
-
+.wy-menu-vertical summary::before {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAHCAQAAAB0Z3/WAAAAdklEQVR42mOYnTizkAEFzCqflcowq3Hmf2SJ2aUz/8+sZfjPNHPVrH8zo6AqY2f9m7XsPyMDA8M29pn7Zv6a7crAMMt95q+Ze1axQTUu4Zt1fubnWakzP888N5cXyZr5ErPuzfw/8+5scVTrGeaozFw8RwXGAwCYXi8eC3Dn4QAAAABJRU5ErkJggg==);
     background-position: 50%;
     background-repeat: no-repeat;
@@ -7626,11 +7633,8 @@ span[id*=MathJax-Span] {
     transition: all .2s;
     width: 10px;
     content: "";
-
-    
 }
 
 .wy-menu-vertical details[open] summary::before {
- 
-    transform: rotate(0deg);    
+    transform: rotate(0deg);
 }

@@ -16,7 +16,7 @@
 
 
         <!--morris-->
-        <script data-url_root="./" id="documentation_options" src="/js/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="/js/documentation_options.js"></script>
         <script src="/js/jquery.js"></script>
         <script src="/js/underscore.js"></script>
         <script src="/js/sphinx_javascript_frameworks_compat.js"></script>
@@ -25,6 +25,8 @@
         <script src="/js/translations.js"></script>
         <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         <script src="/js/theme.js"></script>
+        <script src="/js/jquery-migrate-3.0.0.min.js"></script>
+
 
 
 
@@ -143,8 +145,7 @@
 </nav>
 		
 		<!-- Main content -->
-			<article id="page-" class="article article-type-page" itemscope
-    itemprop="blogPost">
+			<article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
     <div class="article-inner">
         <div class="article-entry" itemprop="articleBody">
             
@@ -415,7 +416,73 @@
     
         
             
-</article>	
+</article>
+
+<script>
+    $(document).ready(function() {
+        $(".wy-menu-vertical li a").each(function() {
+            $(this).removeClass('active');
+
+            if ($($(this))[0].href == String(window.location)) {
+
+                $(this).addClass('active');
+                $(this).parents('details').attr('open', true);
+
+
+
+            }
+        });
+
+        var articleBody = $('div.document');
+        var documenTocList = $('.document-toc-list');
+        articleBody.find('h2').each(function() {
+
+            var item = $('<li class="document-toc-item "><a class="document-toc-link" href=' + $(this).children('a').attr('href') + '>' + $(this).text().slice(0, -1) + '</a></li>')
+            documenTocList.append(item);
+            var text = '[href=' + $(this).children('a').attr('href') + ']';
+            $('.toc').find(text).removeClass('active');
+
+        });
+
+        function getPos(obj) {
+
+            var t = 0;
+            while (obj) {
+                t = t + obj.offsetTop;
+
+                obj = obj.offsetParent;
+            }
+            return {
+                top: t
+            };
+
+        }
+
+        $(window).scroll(function() {
+
+            articleBody.find('h2').each(function() {
+                console.log(getPos($(this)[0]));
+                console.log("scrollTop:" + $(window).scrollTop());
+                if ($(window).scrollTop() >= getPos($(this)[0]).top) {
+
+                    var text = '[href=' + $(this).children('a').attr('href') + ']';
+                    console.log(text);
+
+                    $('.toc').find('a').removeClass('active');
+                    $('.toc').find(text).addClass('active');
+                }
+
+            })
+
+
+
+
+
+
+        });
+
+    })
+</script>	
 		
 		<!-- Footer -->
 <footer class="text-center">
@@ -505,6 +572,15 @@
 
             });
         </script>
+  <script>
+                            jQuery(function () {
+                                SphinxRtdTheme.Navigation.enable(true);
+                            });
+
+
+
+
+                        </script>
 
 
 

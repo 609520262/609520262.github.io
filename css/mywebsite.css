@@ -92,6 +92,7 @@ header {
     font-family: '3dslight', Helvetica, Arial, serif;
     font-size: 30px;
     color: #fff;
+    text-shadow: 1px 1px;
     float: left;
     text-transform: uppercase;
 }
