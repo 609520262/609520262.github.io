@@ -28,7 +28,7 @@ excerpt: main
 		</div>
 		
 	</div>
-	<section class="ds-banner--medium ds-banner">
+	<section class="ds-banner--medium ds-banner ds-banner1">
     <div class="ds-banner__shadow"></div>
 
 
@@ -89,7 +89,7 @@ excerpt: main
 
 			</div>
 			<div class="rightcol">
-				<img src="/assets/entropy1.jpg" alt="entropy">
+				<img src="/assets/alphago.jpg" alt="entropy" height="350">
 
 			</div>
 		</div>

@@ -28,7 +28,7 @@ excerpt: main
 		</div>
 		
 	</div>
-	<section class="ds-banner--medium ds-banner">
+	<section class="ds-banner--medium ds-banner ds-banner3">
     <div class="ds-banner__shadow"></div>
 
 
