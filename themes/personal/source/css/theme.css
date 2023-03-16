@@ -6320,7 +6320,7 @@ html {
     display: grid;
     gap: 3rem;
     grid-template-areas: "sidebar main toc";
-    grid-template-columns: 1fr 2.5fr 1fr;
+    grid-template-columns: 1fr 2.5fr minmax(171px, 1fr);
     padding-left: 1rem;
     padding-right: 1rem;
     margin-top: 63px;
