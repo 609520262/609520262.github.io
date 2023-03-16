@@ -89,7 +89,7 @@ excerpt: main
 
 			</div>
 			<div class="rightcol">
-				<img src="/assets/entropy1.jpg" alt="entropy">
+				<img src="/assets/highlight.png" alt="entropy">
 
 			</div>
 		</div>
@@ -111,7 +111,7 @@ excerpt: main
 		</div></div>
 		<div class="colfix">
 			<div class="leftcol">
-				<img src="/assets/2023-03-16 184811.jpg" alt="entropy">
+				<img src="/assets/omniverse.png" alt="entropy">
 
 			</div>
 			<div class="rightcol">
@@ -144,7 +144,7 @@ excerpt: main
 
 			</div>
 			<div class="rightcol">
-				<img src="/assets/2023-03-16 185012.jpg" alt="entropy">
+				<img src="/assets/dog.jpg" alt="entropy">
 
 			</div>
 		</div>

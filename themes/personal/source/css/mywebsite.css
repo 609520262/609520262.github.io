@@ -598,7 +598,6 @@
     }
     
     .pro_con {
-        width: 1200px;
         height: 450px;
         margin-top: 40px;
         padding: 0px;
@@ -608,6 +607,8 @@
         width: 400px;
         height: 450px;
         float: left;
+        padding-right: 50px;
+        overflow: hidden;
     }
     
     .pro_con .black {
