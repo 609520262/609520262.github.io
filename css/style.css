@@ -15556,7 +15556,6 @@ a.list-group-item-danger.active:focus {
     }
     
     .pro_con {
-        width: 1200px;
         height: 450px;
         margin-top: 40px;
         padding: 0px;
@@ -15566,6 +15565,8 @@ a.list-group-item-danger.active:focus {
         width: 400px;
         height: 450px;
         float: left;
+        padding-right: 50px;
+        overflow: hidden;
     }
     
     .pro_con .black {
@@ -15800,6 +15801,7 @@ a.list-group-item-danger.active:focus {
     
     .left_news img {
         width: 579px;
+        height: 350px;
     }
     
     .slick-prev,
@@ -15812,6 +15814,31 @@ a.list-group-item-danger.active:focus {
         top: 46%;
         z-index: 99;
         cursor: pointer;
+    }
+    
+    #contrast p {
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        transform: translate(-50%, -50%);
+        top: 70%;
+    }
+    
+    #contrast i {
+        height: 15px;
+        width: 15px;
+        background-color: gray;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    #contrast i:nth-child(1) {
+        background-color: white;
+    }
+    
+    #contrast i:nth-child(4) {
+        margin-right: 0;
     }
     
     .slick-prev {
@@ -16132,6 +16159,7 @@ a.list-group-item-danger.active:focus {
         grid-gap: 40px;
         margin-left: auto;
         margin-right: auto;
+        align-items: center;
     }
     
     .leftcol p:first-child,

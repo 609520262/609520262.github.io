@@ -6355,6 +6355,7 @@ html {
     display: flex;
     flex-direction: column;
     padding-top: 3rem;
+    max-height: calc(100vh - 6rem);
 }
 
 .wy-side-scroll {}
