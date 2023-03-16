@@ -29,9 +29,9 @@ date: 2023-03-08 18:37:54
             <div itemprop="articleBody">
 
               <section id="id1">
-                <h1>安装说明<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
+                <h1>安装说明<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
                 <section id="id2">
-                  <h2>一、简介<a class="headerlink" href="#id2" title="此标题的永久链接"></a></h2>
+                  <h2>一、简介<a class="headerlink" href="#id2" title="此标题的永久链接"></a></h2>
                   <p>本章帮助您获得 <strong>Entropy theory</strong> 的所有源码以及配置您进行熵值实验的所需环境。</p>
                 </section>
                 <section id="entropy-theory">
