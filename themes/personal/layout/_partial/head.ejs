@@ -5,7 +5,8 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
     <meta name="description" content="Personal theme">
     <meta name="author" content="iblogger.ca">
     <link href='/img/favicon.png' type='image/x-icon' rel='shortcut icon' />
@@ -24,6 +25,22 @@
         <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         <script src="/js/theme.js"></script>
         <script src="/js/jquery-migrate-3.0.0.min.js"></script>
+		<script>
+		
+		// 覆盖鼠标滑动
+document.body.addEventListener('wheel', (e) => {
+    if (e.ctrlKey) {
+        if (e.deltaY < 0) {
+            e.preventDefault();
+            return false;
+        }
+        if (e.deltaY > 0) {
+            e.preventDefault();
+            return false;
+        }
+    }
+}, { passive: false });
+</script>
 
 
 
