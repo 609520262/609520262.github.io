@@ -5836,6 +5836,61 @@ html {
     width: 300px
 }
 
+.ds-banner--medium.ds-banner {
+    background-image: url(https://www.solidworks.com/sites/default/files/styles/banner/public/2017-11/SW-3DCAD-hero-mechanical-sheet-metal-productivity-001_1.jpg?itok=CKpJob7R);
+    background-size: cover;
+    height: 540px;
+    position: relative;
+}
+
+.ds-banner--medium.ds-banner .ds-banner__content {
+    position: absolute;
+    margin-top: 0;
+    text-align: left;
+    top: calc(50% + 22px);
+    width: 100%;
+}
+
+.ds-banner__shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .4);
+}
+
+.ds-banner--medium.ds-banner .ds-container1 {
+    max-width: 75%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.field--formatter-ds-button-link:first-child {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 24px;
+    color: #fff;
+    background: #239de8;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    border-radius: 22px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -.2px;
+    line-height: 41px;
+    padding: 0 24px;
+}
+
+#white {
+    color: white;
+}
+
 .wy-menu-vertical header,
 .wy-menu-vertical p.caption,
 .wy-menu-vertical summary {

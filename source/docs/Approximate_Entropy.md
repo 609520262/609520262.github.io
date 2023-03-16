@@ -86,13 +86,13 @@ end
 <section id="id4">
 <h3>近似熵的脉冲检测结果<a class="headerlink" href="#id4" title="此标题的永久链接"></a></h3>
 <figure class="align-center">
-<img alt="近似熵的脉冲检测结果" src="/assets/aeClass.png" />
+<img alt="近似熵的脉冲检测结果" src="../_images/aeClass.png" />
 </figure>
 </section>
 <section id="id5">
 <h3>多尺度近似熵的故障分类可视化结果<a class="headerlink" href="#id5" title="此标题的永久链接"></a></h3>
 <figure class="align-center">
-<img alt="多尺度近似熵的故障分类可视化结果" src="/assets/aeEffecience.png" />
+<img alt="多尺度近似熵的故障分类可视化结果" src="../_images/aeEffecience.png" />
 </figure>
 </section>
 </section>
@@ -106,6 +106,7 @@ end
   <hr/>
 
   
+
 </footer>
         </div>
       </div>
