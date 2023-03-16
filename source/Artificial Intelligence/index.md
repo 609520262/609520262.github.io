@@ -89,7 +89,7 @@ excerpt: main
 
 			</div>
 			<div class="rightcol">
-				<img src="/assets/alphago.jpg" alt="entropy" height="350">
+				<img src="/assets/alphago.jpg" alt="entropy">
 
 			</div>
 		</div>
@@ -111,7 +111,7 @@ excerpt: main
 		</div></div>
 		<div class="colfix">
 			<div class="leftcol">
-				<img src="/assets/2023-03-16 184811.jpg" alt="entropy">
+				<img src="/assets/labeled-tic-tac-toe-game-tree-for-monte-carlo-tree-search.png" alt="entropy">
 
 			</div>
 			<div class="rightcol">
@@ -144,7 +144,7 @@ excerpt: main
 
 			</div>
 			<div class="rightcol">
-				<img src="/assets/2023-03-16 185012.jpg" alt="entropy">
+				<img src="/assets/70d8475ed908487680057bf1f2760f10e367e7176acf43ebb380207b748b2377.png" alt="entropy">
 
 			</div>
 		</div>
