@@ -6007,8 +6007,9 @@
     }
     
     .developer-community-join-wrapper .open-source-and-cooperation .cooperation-card-wrapper {
-        display: flex;
-        justify-content: center;
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
     }
     
     .developer-community-join-wrapper .developer-community-sub-title {
@@ -6027,7 +6028,8 @@
         height: 190px;
         background: #fff;
         border: 1px solid #dadcdf;
-        margin-right: 20px;
+        margin-right: auto;
+        margin-left: auto;
         box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .05);
         position: relative;
     }
