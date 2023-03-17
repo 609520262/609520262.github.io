@@ -1021,6 +1021,10 @@
         min-width: 1500px;
     }
     
+    img.public {
+        margin-top: 40px;
+    }
+    
     .intro-header .customh1 {
         margin-left: 10%;
         margin-top: 200px;
@@ -1220,4 +1224,31 @@
     
     h1.ds-banner__title {
         font-size: 200%;
+    }
+    
+    .nybanner {
+        width: 1200px;
+        height: 135px;
+        margin: 0px auto;
+        background: url('/assets/banner-lm5.png') left center no-repeat;
+        padding-top: 100px;
+    }
+    
+    .nybanner1 {
+        width: 1200px;
+        height: 135px;
+        margin: 0px auto;
+        background: url('/assets/nybanner1.png') center no-repeat;
+        padding-top: 100px;
+    }
+    
+    .public_article {
+        margin: 20px auto;
+        margin-top: 0px;
+        width: 1200px;
+        padding-top: 20px;
+        padding-left: 50px;
+        box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .12);
+        border-radius: 6px;
+        border: 1px solid rgba(0, 0, 0, .12);
     }
