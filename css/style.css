@@ -15028,7 +15028,6 @@ a.list-group-item-danger.active:focus {
     }
     
     .banner {
-        height: 565px;
         min-width: 1500px;
         max-width: 1700px;
         position: relative;
@@ -15043,18 +15042,15 @@ a.list-group-item-danger.active:focus {
     }
     
     .banner .img_left {
-        width: 1100px;
-        height: 565px;
-        position: absolute;
+        width: 100%;
         overflow: hidden;
-        top: 0px;
     }
     
     .banner .img_right {
-        width: 488px;
+        width: 27vw;
         height: 565px;
         position: absolute;
-        left: 1050px;
+        left: 73vw;
         top: 0px;
     }
     
@@ -15062,7 +15058,7 @@ a.list-group-item-danger.active:focus {
         margin: 0px;
         padding: 0px;
         position: relative;
-        width: 1200px;
+        width: 100%;
         transition: 0.5s;
     }
     
@@ -15070,8 +15066,7 @@ a.list-group-item-danger.active:focus {
         position: absolute;
         top: 0px;
         left: 0px;
-        width: 1200px;
-        height: 565px;
+        width: 100%;
     }
     
     .img_left .black1 {
