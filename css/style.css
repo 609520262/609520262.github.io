@@ -15353,6 +15353,7 @@ a.list-group-item-danger.active:focus {
     
     .logo img {
         padding-bottom: 0px;
+        height: 75px;
     }
     
     .navbar-nav {
@@ -15819,6 +15820,10 @@ a.list-group-item-danger.active:focus {
         bottom: 0px;
         transform: translate(-50%, -50%);
         top: 70%;
+    }
+    
+    .banner #contrast p {
+        top: 90%;
     }
     
     #contrast i {
