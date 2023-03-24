@@ -15029,8 +15029,10 @@ a.list-group-item-danger.active:focus {
     
     .banner {
         height: 565px;
-        width: 100%;
+        min-width: 1500px;
+        max-width: 1700px;
         position: relative;
+        margin: 0 auto;
         margin-top: 142.5px;
     }
     
@@ -15041,7 +15043,7 @@ a.list-group-item-danger.active:focus {
     }
     
     .banner .img_left {
-        width: 1200px;
+        width: 1100px;
         height: 565px;
         position: absolute;
         overflow: hidden;
@@ -15052,7 +15054,7 @@ a.list-group-item-danger.active:focus {
         width: 488px;
         height: 565px;
         position: absolute;
-        right: 0px;
+        left: 1050px;
         top: 0px;
     }
     
