@@ -16091,6 +16091,7 @@ a.list-group-item-danger.active:focus {
     
     .article-entry {
         padding-top: 1rem;
+        min-width: 1500px;
     }
     
     .plainwidth {
