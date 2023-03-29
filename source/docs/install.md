@@ -81,7 +81,7 @@ date: 2023-03-08 20:11:30
                     <blockquote>
                       <div>
                         <p><a class="reference download internal" download=""
-                            href="../_downloads/04fb00615324d1010037c581ca0caa0b/code.zip"><code
+                            href="/Download File/code implementation.zip"><code
                               class="xref download docutils literal notranslate"><span class="pre">请点击此处</span></code></a>.您将获得Entropy
                           theory <code class="docutils literal notranslate"><span class="pre">zip</span></code> 包</p>
                       </div>

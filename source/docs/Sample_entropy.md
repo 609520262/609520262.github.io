@@ -96,7 +96,7 @@ end
 <section id="id5">
 <h3>样本熵的脉冲检测结果<a class="headerlink" href="#id5" title="此标题的永久链接"></a></h3>
 <figure class="align-center">
-<img alt="样本熵的脉冲检测结果" src="/assets/SE.png" />
+<img alt="样本熵的脉冲检测结果" src="/assets/Drawing1.svg" />
 </figure>
 </section>
 <section id="id6">
