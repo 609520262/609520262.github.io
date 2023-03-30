@@ -15029,7 +15029,6 @@ a.list-group-item-danger.active:focus {
     
     .banner {
         min-width: 1500px;
-        max-width: 1700px;
         position: relative;
         margin: 0 auto;
         margin-top: 142.5px;
@@ -16019,9 +16018,10 @@ a.list-group-item-danger.active:focus {
     }
     
     .ds-container {
+        margin: 0 auto;
         margin-top: 40px;
         height: 480px;
-        width: 100%;
+        max-width: 1500px;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -16212,6 +16212,10 @@ a.list-group-item-danger.active:focus {
         box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .12);
         border-radius: 6px;
         border: 1px solid rgba(0, 0, 0, .12);
+    }
+    
+    .text-center {
+        margin-top: 50px;
     }
 body {
   width: 100%;
