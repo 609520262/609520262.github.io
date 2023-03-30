@@ -14,6 +14,10 @@
     
 <link rel="stylesheet" href="/css/bootstrap.max.css">
 
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
 
         <!--morris-->
         <script data-url_root="../" id="documentation_options" src="/js/documentation_options.js"></script>
@@ -26,6 +30,9 @@
         <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         <script src="/js/theme.js"></script>
         <script src="/js/jquery-migrate-3.0.0.min.js"></script>
+       <script src="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      
 
 
 
@@ -1093,6 +1100,17 @@ console experience.</p></li>
             }, 800);
             return false;
         });
+
+	$('.slider1').slick({
+
+  speed: 500,
+autoplay:true,
+autoplaySpeed:3000,
+dots:true,
+pauseOnFocus:false,
+// the magic
+
+});
 
     });
 </script>

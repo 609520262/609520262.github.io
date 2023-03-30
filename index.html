@@ -14,6 +14,10 @@
     
 <link rel="stylesheet" href="/css/bootstrap.max.css">
 
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
 
         <!--morris-->
         <script data-url_root="../" id="documentation_options" src="/js/documentation_options.js"></script>
@@ -26,6 +30,9 @@
         <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         <script src="/js/theme.js"></script>
         <script src="/js/jquery-migrate-3.0.0.min.js"></script>
+       <script src="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      
 
 
 
@@ -186,12 +193,11 @@
 
 </div>
 
-<div class="banner">
-    <div class="img_left">
-        <img src="/assets/backgroundsw.jpg" alt="">
-        <div class="backgroundsw">
-        </div>
-        <div class="black1">
+
+<div class="slider1">
+  <div class="item">
+	  <img src="/assets/backgroundsw.jpg" alt="">
+	   <div class="black1">
 
             <h4>Bearing failure</h4>
             <i></i>
@@ -202,13 +208,34 @@
             <a href="#">Learn More</a>
         </div>
     </div>
-    <div id="contrast">
-        <a class="slick-prev"></a>
-        <a class="slick-next"></a>
-        <p><i data-index="0" style="background-color: gray;"></i><i data-index="1" style="background-color: gray;"></i><i data-index="2" style="background-color: gray;"></i><i data-index="3" style="background-color: white;"></i></p>
-    </div>
+    <div class="item">
+	  <img src="/assets/highlight.png" alt="">
+	   <div class="black1">
 
+            <h4>Bearing failure</h4>
+            <i></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+				</svg>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+	<div class="item">
+	  <img src="/assets/quadcopter.png" alt="">
+	   <div class="black1">
+
+            <h4>Bearing failure</h4>
+            <i></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+				</svg>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
 </div>
+
 
 
 
@@ -578,6 +605,17 @@
             }, 800);
             return false;
         });
+
+	$('.slider1').slick({
+
+  speed: 500,
+autoplay:true,
+autoplaySpeed:3000,
+dots:true,
+pauseOnFocus:false,
+// the magic
+
+});
 
     });
 </script>
