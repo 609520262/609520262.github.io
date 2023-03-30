@@ -110,7 +110,8 @@
         width: 100%;
     }
     
-    .img_left .black1 {
+    .img_left .black1,
+    .slider1 .black1 {
         position: absolute;
         left: 400px;
         top: 250px;
@@ -119,12 +120,14 @@
         opacity: 0;
     }
     
-    .img_left .black1 p {
+    .img_left .black1 p,
+    .slider1 .black1 p {
         color: #fff;
         font-size: 1.5em;
     }
     
-    .img_left .black1 i {
+    .img_left .black1 i,
+    .slider1 .black1 i {
         display: block;
         width: 200px;
         height: 3px;
@@ -138,16 +141,19 @@
         background: rgba(240, 128, 128, 0.3);
     }
     
-    .img_left:hover .black1 {
+    .img_left:hover .black1,
+    .slider1:hover .black1 {
         opacity: 1;
     }
     
-    .img_left:hover .black1 p {
+    .img_left:hover .black1 p,
+    .slider1:hover .black1 p {
         opacity: 1;
     }
     
     .img_left h4,
-    .img_right h4 {
+    .img_right h4,
+    .slider1 h4 {
         font-size: 2.0em;
         font-weight: 600;
     }
@@ -248,7 +254,8 @@
         opacity: 1;
     }
     
-    .banner a {
+    .banner a,
+    .slider1 a {
         font-size: 20px;
         color: #fff;
     }
@@ -1258,4 +1265,53 @@
     
     .text-center {
         margin-top: 50px;
+    }
+    
+    .myBanner,
+    .slider1 {
+        min-width: 1500px;
+        margin: 0 auto;
+        margin-top: 142.5px;
+        overflow: hidden;
+        max-height: 610px;
+        margin-bottom: 0px!important;
+    }
+    
+    .carousel-inner .item {
+        width: 100%;
+    }
+    
+    .carousel-inner .item img,
+    .slider1 img {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        transition: 0.5s;
+    }
+    
+    .slick-dots li button:before {
+        font-size: 40px;
+        line-height: 40px;
+        color: #fff;
+    }
+    
+    .slick-dots li.slick-active button:before {
+        color: #e6b215;
+    }
+    
+    .slick-dots li {
+        padding: 20px;
+    }
+    
+    .slick-dots {
+        bottom: 20px;
+    }
+    
+    .slick-prev:before,
+    .slick-next:before {
+        display: none;
+    }
+    
+    .item.slick-slide {
+        position: relative;
     }
