@@ -363,7 +363,7 @@
     }
     
     .navbar-nav>li {
-        font-size: 15px;
+        font-size: 20px;
         font-family: "3ds", icon, sans-serif;
         height: 60px;
         content: "";
@@ -775,6 +775,7 @@
         /*Fix for safari gap*/
         min-height: 100px;
         max-height: 150px;
+        top: 50px;
     }
     /* Animation */
     
@@ -965,12 +966,12 @@
     }
     
     .right_news dt {
-        font-size: 18px;
+        font-size: 20px;
         color: #333;
     }
     
     .right_news dd {
-        font-size: 12px;
+        font-size: 15px;
         color: #333;
     }
     
@@ -1273,7 +1274,7 @@
         margin: 0 auto;
         margin-top: 142.5px;
         overflow: hidden;
-        max-height: 610px;
+        max-height: 560px;
         margin-bottom: 0px!important;
     }
     

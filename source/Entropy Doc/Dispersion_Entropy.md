@@ -96,25 +96,25 @@ end
 <section id="id7">
 <h3>色散熵的脉冲检测结果<a class="headerlink" href="#id7" title="此标题的永久链接"></a></h3>
 <figure class="align-center">
-<img alt="色散熵的脉冲检测结果" src="/assets/Downloads/单尺度脉冲检测结果/DispEn.emf.svg" />
+<img alt="色散熵的脉冲检测结果" src="../../_images/DispEn.png" />
 </figure>
 </section>
 <section id="id8">
 <h3>多尺度色散熵的故障分类可视化结果<a class="headerlink" href="#id8" title="此标题的永久链接"></a></h3>
 <figure class="align-center">
-<img alt="多尺度色散熵的故障分类可视化结果" src="/assets/Downloads/多尺度可视化结果/MultiDispEn.emf.svg" />
+<img alt="多尺度色散熵的故障分类可视化结果" src="../../_images/MultiDispEn.png" />
 </figure>
 </section>
 <section id="id9">
 <h3>抗噪性分析<a class="headerlink" href="#id9" title="此标题的永久链接"></a></h3>
 <figure class="align-center">
-<img alt="抗噪性分析" src="/assets/Downloads/抗噪性结果/DispEn.emf.svg" />
+<img alt="抗噪性分析" src="../../_images/DispEn1.png" />
 </figure>
 </section>
 <section id="id10">
 <h3>计算效率结果<a class="headerlink" href="#id10" title="此标题的永久链接"></a></h3>
 <figure class="align-center">
-<img alt="计算效率结果" src="/assets/Downloads/计算效率结果/DispEn.emf.svg" />
+<img alt="计算效率结果" src="../../_images/DispEn2.png" />
 </figure>
 <dl class="footnote brackets">
 <dt class="label" id="id11"><span class="brackets"><a class="fn-backref" href="#id4">1</a></span></dt>

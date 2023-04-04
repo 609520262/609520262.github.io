@@ -1,8 +1,10 @@
 ---
-title: Distribution_Entropy
-date: 2023-03-08 22:06:47
+title: Diversity_Entropy
+date: 2023-03-08 22:06:00
 ---
+
 {% raw %}
+
  <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../../index.html">Entropy theory</a>
@@ -84,25 +86,25 @@ date: 2023-03-08 22:06:47
 <section id="id5">
 <h3>分布熵的脉冲检测结果<a class="headerlink" href="#id5" title="此标题的永久链接"></a></h3>
 <figure class="align-center">
-<img alt="分布熵的脉冲检测结果" src="/assets/Downloads/单尺度脉冲检测结果/DistEn.emf.svg" />
+<img alt="分布熵的脉冲检测结果" src="/assets/DistEn.png" />
 </figure>
 </section>
 <section id="id6">
 <h3>多尺度分布熵的故障分类可视化结果<a class="headerlink" href="#id6" title="此标题的永久链接"></a></h3>
 <figure class="align-center">
-<img alt="多尺度分布熵的故障分类可视化结果" src="/assets/Downloads/多尺度可视化结果/MultiDistEn.emf.svg" />
+<img alt="多尺度分布熵的故障分类可视化结果" src="/assets/MultiDistEn.png" />
 </figure>
 </section>
 <section id="id7">
 <h3>抗噪性分析<a class="headerlink" href="#id7" title="此标题的永久链接"></a></h3>
 <figure class="align-center">
-<img alt="抗噪性分析" src="/assets/Downloads/抗噪性结果/DistEn.emf.svg" />
+<img alt="抗噪性分析" src="/assets/DistEn1.png" />
 </figure>
 </section>
 <section id="id8">
 <h3>计算效率结果<a class="headerlink" href="#id8" title="此标题的永久链接"></a></h3>
 <figure class="align-center">
-<img alt="计算效率结果" src="/assets/Downloads/计算效率结果/DistEn.emf.svg" />
+<img alt="计算效率结果" src="/assets/DistEn2.png" />
 </figure>
 <dl class="footnote brackets">
 <dt class="label" id="id9"><span class="brackets"><a class="fn-backref" href="#id2">1</a></span></dt>
@@ -125,12 +127,14 @@ date: 2023-03-08 22:06:47
 
   <hr/>
 
- 
+  
    
 
 </footer>
         </div>
       </div>
     </section>
-
-{% endraw %}
+    
+	
+	
+	{% endraw %}

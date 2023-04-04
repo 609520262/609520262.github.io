@@ -94,25 +94,25 @@ date: 2023-03-08 22:05:12
 <section id="id5">
 <h3>排列熵的脉冲检测结果<a class="headerlink" href="#id5" title="此标题的永久链接"></a></h3>
 <figure class="align-center">
-<img alt="排列熵的脉冲检测结果" src="/assets/Downloads/单尺度脉冲检测结果/PE.emf.svg" />
+<img alt="排列熵的脉冲检测结果" src="/assets/PE.png" />
 </figure>
 </section>
 <section id="id6">
 <h3>多尺度排列熵的故障分类可视化结果<a class="headerlink" href="#id6" title="此标题的永久链接"></a></h3>
 <figure class="align-center">
-<img alt="多尺度排列熵的故障分类可视化结果" src="/assets/Downloads/多尺度可视化结果/MultiPermutationEntropy.emf.svg" />
+<img alt="多尺度排列熵的故障分类可视化结果" src="/assets/MultiPermutationEntropy.png" />
 </figure>
 </section>
 <section id="id7">
 <h3>抗噪性分析<a class="headerlink" href="#id7" title="此标题的永久链接"></a></h3>
 <figure class="align-center">
-<img alt="抗噪性分析" src="/assets/Downloads/抗噪性结果/PE.emf.svg" />
+<img alt="抗噪性分析" src="/assets/PE1.png" />
 </figure>
 </section>
 <section id="id8">
 <h3>计算效率结果<a class="headerlink" href="#id8" title="此标题的永久链接"></a></h3>
 <figure class="align-center">
-<img alt="计算效率结果" src="/assets/Downloads/计算效率结果/PE.emf.svg" />
+<img alt="计算效率结果" src="/assets/PE2.png" />
 </figure>
 <dl class="footnote brackets">
 <dt class="label" id="id9"><span class="brackets"><a class="fn-backref" href="#id2">1</a></span></dt>
