@@ -15321,7 +15321,7 @@ a.list-group-item-danger.active:focus {
     }
     
     .navbar-nav>li {
-        font-size: 15px;
+        font-size: 20px;
         font-family: "3ds", icon, sans-serif;
         height: 60px;
         content: "";
@@ -15733,6 +15733,7 @@ a.list-group-item-danger.active:focus {
         /*Fix for safari gap*/
         min-height: 100px;
         max-height: 150px;
+        top: 50px;
     }
     /* Animation */
     
@@ -15923,12 +15924,12 @@ a.list-group-item-danger.active:focus {
     }
     
     .right_news dt {
-        font-size: 18px;
+        font-size: 20px;
         color: #333;
     }
     
     .right_news dd {
-        font-size: 12px;
+        font-size: 15px;
         color: #333;
     }
     
@@ -16231,7 +16232,7 @@ a.list-group-item-danger.active:focus {
         margin: 0 auto;
         margin-top: 142.5px;
         overflow: hidden;
-        max-height: 610px;
+        max-height: 560px;
         margin-bottom: 0px!important;
     }
     

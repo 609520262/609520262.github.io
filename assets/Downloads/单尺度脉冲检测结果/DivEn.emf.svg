@@ -1,0 +1,161 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_2" width="302" height="227">
+
+<g transform="matrix(1.3333334 0 0 1.3333334 0 0)">
+    <path d="M0 0L226.5 0L226.5 170.25L0 170.25z" stroke="none" fill="#FFFFFF" fill-rule="evenodd" />
+	<g transform="matrix(0.75 0 0 0.75 -0 -0)">
+		<g>
+			<g>
+				<g transform="matrix(1 0 0 1 0 0)">
+					<g>
+					</g>
+					<g>
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M0 0L302 0L302 227L0 227" stroke="none" fill="#FFFFFF" fill-rule="evenodd" />
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M0 0L302 0L302 227L0 227" stroke="none" fill="#FFFFFF" fill-rule="evenodd" />
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M39 17L273 17L273 202L39 202" stroke="none" fill="#FFFFFF" fill-rule="evenodd" />
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M39 202L273 202" stroke="#262626" stroke-width="0.6666667" fill="none" />
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M39 16.999998L273 16.999998" stroke="#262626" stroke-width="0.6666667" fill="none" />
+						<text transform="matrix(1 0 0 1 156.00012 211.72333)" x="-55.5" y="1.1977539" style="fill:#262626;font-family:ABeeZee;" font-size="8.25">
+Sliding window numbers
+						</text>
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M39 202L39 16.999998" stroke="#262626" stroke-width="0.6666667" fill="none" />
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M273 202L273 16.999998" stroke="#262626" stroke-width="0.6666667" fill="none" />
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M39 202L41.34 202" stroke="#262626" stroke-width="0.6666667" fill="none" />
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M39 155.75L41.34 155.75" stroke="#262626" stroke-width="0.6666667" fill="none" />
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M39 109.5L41.34 109.5" stroke="#262626" stroke-width="0.6666667" fill="none" />
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M39 63.249996L41.34 63.249996" stroke="#262626" stroke-width="0.6666667" fill="none" />
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M39 16.999998L41.34 16.999998" stroke="#262626" stroke-width="0.6666667" fill="none" />
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M273 202L270.66 202" stroke="#262626" stroke-width="0.6666667" fill="none" />
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M273 155.75L270.66 155.75" stroke="#262626" stroke-width="0.6666667" fill="none" />
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M273 109.5L270.66 109.5" stroke="#262626" stroke-width="0.6666667" fill="none" />
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M273 63.249996L270.66 63.249996" stroke="#262626" stroke-width="0.6666667" fill="none" />
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M273 16.999998L270.66 16.999998" stroke="#262626" stroke-width="0.6666667" fill="none" />
+						<text transform="matrix(1 0 0 1 36.866665 209.36)" x="-6" y="-6.005209" style="fill:#262626;font-family:ABeeZee;" font-size="8">
+0
+						</text>
+						<text transform="matrix(1 0 0 1 36.866665 163.11)" x="-19" y="-6.005209" style="fill:#262626;font-family:ABeeZee;" font-size="8">
+0.05
+						</text>
+						<text transform="matrix(1 0 0 1 36.866665 116.86)" x="-14" y="-6.005209" style="fill:#262626;font-family:ABeeZee;" font-size="8">
+0.1
+						</text>
+						<text transform="matrix(1 0 0 1 36.866665 70.60999)" x="-19" y="-6.005209" style="fill:#262626;font-family:ABeeZee;" font-size="8">
+0.15
+						</text>
+						<text transform="matrix(1 0 0 1 36.866665 24.359999)" x="-14" y="-6.005209" style="fill:#262626;font-family:ABeeZee;" font-size="8">
+0.2
+						</text>
+						<text transform="matrix(-4.371139E-08 -1 1 -4.371139E-08 23.893335 109.49991)" x="-21" y="-12.505209" style="fill:#262626;font-family:ABeeZee;" font-size="8">
+AD value
+						</text>
+						<text transform="matrix(1 0 0 1 156.00015 22.527493)" x="-93" y="-12.802246" style="fill:#000000;font-family:ABeeZee;" font-size="8.25">
+Diversity entropy based impulse detection
+						</text>
+                        <path transform="matrix(1 0 0 1 0 0)"  d="M41.34 201.3666L43.68 200.94232L46.02 200.64854L48.36 201.3698L50.7 201.68903L53.04 201.9297L55.38 201.81812L57.72 201.9167L60.06 201.95157L62.4 201.31024L64.74 201.50348L67.08 201.41164L69.42 194.32791L71.76 168.72131L74.1 133.71881L76.44 67.13542L78.78 73.80493L81.12 69.45689L83.46 66.416275L85.8 61.025505L88.14 43.804596L90.48 54.028316L92.82 63.949345L95.16 73.04339L97.5 82.05455L99.84 82.660645L102.18 72.638084L104.52 89.527885L106.86 147.16737L109.2 176.9521L111.54 198.94287L113.88 202L116.22 201.3666L118.56 200.94232L120.9 200.64854L123.24 201.3698L125.58 201.68903L127.92 201.9297L130.26 201.81812L132.6 201.9167L134.94 201.95157L137.28 201.31024L139.62 201.50348L141.96 201.41164L144.3 194.7022L146.64 167.09235L148.98 134.19714L151.32 69.30617L153.66 58.157307L156 67.94629L158.34 55.34815L160.68 52.707367L163.02 62.64866L165.36 61.108578L167.7 58.680008L170.04 48.516014L172.38 35.0869L174.72 25.407785L177.06 33.419514L179.4 47.5588L181.74 126.9083L184.08 168.51733L186.42 195.63754L188.76 202L191.1 201.3666L193.44 200.94232L195.78 200.64854L198.12 201.3698L200.46 201.68903L202.8 201.9297L205.14 201.81812L207.48 201.9167L209.82 201.95157L212.16 201.31024L214.5 201.50348L216.84 201.41164L219.18 200.34238L221.52 192.63966L223.86 180.04878L226.2 158.60292L228.54 154.39919L230.88 147.76045L233.22 150.17157L235.56 149.83765L237.9 140.04851L240.24 141.72548L242.58 134.60515L244.92 132.74858L247.26 128.29396L249.6 127.003845L251.94 127.286705L254.28 129.45088L256.62 168.03479L258.96 185.38907L261.3 199.64749L263.64 202L265.98 201.3666L268.32 200.94232L270.66 200.64854" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 41.34 201.3666)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 43.68 200.94232)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 46.02 200.64854)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 48.36 201.3698)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 50.7 201.68903)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 53.04 201.9297)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 55.38 201.81812)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 57.72 201.9167)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 60.06 201.95157)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 62.4 201.31024)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 64.74 201.50348)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 67.08 201.41164)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 69.42 194.32791)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 71.76 168.72131)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 74.1 133.71881)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 76.44 67.13542)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 78.78 73.80493)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 81.12 69.45689)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 83.46 66.416275)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 85.8 61.025505)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 88.14 43.804596)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 90.48 54.028316)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 92.82 63.949345)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 95.16 73.04339)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 97.5 82.05455)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 99.84 82.660645)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 102.18 72.638084)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 104.52 89.527885)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 106.86 147.16737)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 109.2 176.9521)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 111.54 198.94287)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 113.88 202)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 116.22 201.3666)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 118.56 200.94232)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 120.9 200.64854)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 123.24 201.3698)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 125.58 201.68903)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 127.92 201.9297)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 130.26 201.81812)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 132.6 201.9167)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 134.94 201.95157)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 137.28 201.31024)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 139.62 201.50348)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 141.96 201.41164)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 144.3 194.7022)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 146.64 167.09235)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 148.98 134.19714)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 151.32 69.30617)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 153.66 58.157307)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 156 67.94629)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 158.34 55.34815)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 160.68 52.707367)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 163.02 62.64866)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 165.36 61.108578)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 167.7 58.680008)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 170.04 48.516014)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 172.38 35.0869)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 174.72 25.407785)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 177.06 33.419514)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 179.4 47.5588)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 181.74 126.9083)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 184.08 168.51733)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 186.42 195.63754)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 188.76 202)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 191.1 201.3666)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 193.44 200.94232)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 195.78 200.64854)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 198.12 201.3698)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 200.46 201.68903)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 202.8 201.9297)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 205.14 201.81812)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 207.48 201.9167)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 209.82 201.95157)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 212.16 201.31024)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 214.5 201.50348)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 216.84 201.41164)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 219.18 200.34238)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 221.52 192.63966)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 223.86 180.04878)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 226.2 158.60292)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 228.54 154.39919)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 230.88 147.76045)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 233.22 150.17157)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 235.56 149.83765)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 237.9 140.04851)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 240.24 141.72548)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 242.58 134.60515)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 244.92 132.74858)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 247.26 128.29396)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 249.6 127.003845)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 251.94 127.286705)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 254.28 129.45088)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 256.62 168.03479)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 258.96 185.38907)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 261.3 199.64749)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 263.64 202)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 265.98 201.3666)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 268.32 200.94232)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+                        <path transform="matrix(1 0 0 1 270.66 200.64854)"  d="M-3.3333335 0L0 4.4333334L3.3333335 0L0 -4.4333334z" stroke="#FFB5BA" stroke-width="2" fill="none" />
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

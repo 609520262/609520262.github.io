@@ -5558,7 +5558,7 @@
     
     .rst-content .toctree-wrapper>p.caption,
     h2 {
-        font-size: 150%
+        font-size: 200%
     }
     
     h3 {
@@ -6982,7 +6982,8 @@
     
     .rst-content img {
         max-width: 100%;
-        height: auto
+        height: auto;
+        width: 532px;
     }
     
     .rst-content div.figure,
