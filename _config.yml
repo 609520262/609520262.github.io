@@ -104,6 +104,6 @@ theme: personal
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@imlab.site:/home/git/hexo.git
+  repo: git@imlab.site:/home/git/website
 
 
