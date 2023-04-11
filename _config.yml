@@ -105,5 +105,5 @@ theme: personal
 deploy:
   type: git
   repo: git@imlab.site:/home/git/hexo.git
-  branch: master
+  branch: main
 
