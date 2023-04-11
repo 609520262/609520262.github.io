@@ -104,8 +104,6 @@ theme: personal
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  #server改为你的服务IP地址或解析后的域名
-  #例如我改为repo: git@ali6.cn:/var/repo/blog.git
   repo: git@imlab.site:/home/git/hexo.git
   branch: master
 
