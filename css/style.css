@@ -15597,13 +15597,12 @@ a.list-group-item-danger.active:focus {
     }
     
     .black a {
-        display: block;
-        width: 98px;
-        height: 28px;
-        border: 1px solid #000;
+        color:#000;
         margin: 10px auto;
-        opacity: 0;
         border-radius: 14px;
+		line-height: 24px;
+    font-size: 16px;
+    margin: 0 0 24px;
     }
     
     .black svg {
@@ -16086,6 +16085,12 @@ a.list-group-item-danger.active:focus {
         height: 270px;
         width: 100%;
     }
+	
+	#height-370px {
+    margin-top: 40px;
+    height: 370px;
+    width: 100%;
+}
     
     #height-270px .ds-intro-left,
     #height-270px .ds-container-left,
@@ -16094,6 +16099,16 @@ a.list-group-item-danger.active:focus {
     }
     
     #height-270px .ds-intro-left {
+        padding: 21px;
+    }
+	
+	  #height-370px .ds-intro-left,
+    #height-370px .ds-container-left,
+    #height-370px .ds-container-right {
+        height: 370px;
+    }
+    
+    #height-370px .ds-intro-left {
         padding: 21px;
     }
     
@@ -16274,6 +16289,77 @@ a.list-group-item-danger.active:focus {
     .item.slick-slide {
         position: relative;
     }
+
+    .web{
+        background: #fff;
+        padding: 35px 55px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        min-height: 900px;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    .content h1::after {
+        content: "";
+        width: 10px;
+        height: 30px;
+        background: #001c58;
+        position: absolute;
+        top: 19px;
+        left: 0;
+        display: inline-block;
+    }
+    .content h1 {
+        color: #001c58;
+        font-size: 28px;
+        line-height: 1.5em;
+        padding: 10px 0 10px 30px;
+        font-weight: normal;
+        position: relative;
+    }
+    .content .bar {
+        line-height: 50px;
+        height: 50px;
+        color: #666666;
+        margin-bottom: 40px;
+        font-size: 13px;
+        border-bottom: 1px solid #dcdcdc;
+    }
+    .content p {
+        text-indent: 2em;
+        line-height: 41px !important;
+        color: #4a4a4a !important;
+        font-size: 18px !important;}
+
+    .list li a {
+    font-size: 17px;
+    color: #3f3e40;
+}
+
+.list li span.fr {
+    font-size: 14px;
+    color: #595959;
+    float: right;
+}
+
+.web .list li {
+    line-height: 50px;
+    border-bottom: 1px solid #eeeeee;
+    text-indent: 0;
+}
+.list li {
+    line-height: 45px;
+    text-indent: 20px;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.vsbcontent_img img{
+
+    margin: 0 auto;
+}
 body {
   width: 100%;
 }

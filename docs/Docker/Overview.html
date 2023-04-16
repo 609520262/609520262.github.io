@@ -27,7 +27,7 @@
         <script src="/js/doctools.js"></script>
         <script src="/js/sphinx_highlight.js"></script>
         <script src="/js/translations.js"></script>
-        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script async="async" src="https://cdn.bootcss.com/mathjax/3.0.5/es5/tex-mml-chtml.js"></script>
         <script src="/js/theme.js"></script>
         <script src="/js/jquery-migrate-3.0.0.min.js"></script>
        <script src="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -66,7 +66,7 @@
     <![endif]-->
 
 
-<meta name="generator" content="Hexo 5.3.0"></head>
+<meta name="generator" content="Hexo 5.4.2"></head>
 <body>
 	<div id="wrapper">
 		<!-- Navigation -->
@@ -138,7 +138,7 @@
                 </li>
 
                 <li class="page-scroll">
-                    <a href="/Entropy Theory/">转子系统</a>
+                    <a href="/Rotating machinery/">转子故障试验台</a>
                 </li>
                 <li class="page-scroll">
                     <a href="/docs">熵值理论</a>
@@ -146,6 +146,9 @@
 
                 <li class="page-scroll">
                     <a href="/Public1">发表</a>
+                </li>
+				<li class="page-scroll">
+                    <a href="/News">动态</a>
                 </li>
                 <li class="page-scroll">
                     <a href="/docs">教程</a>
@@ -168,7 +171,7 @@
                         <div class="header_down">
                             <div class="wrap">
 
-                                <h1><span class="pipe">|</span>Shape the world we live in</h1>
+                                <h1><span class="pipe">|</span>装备智能运维实验室</h1>
                                 <ul class="list-inline">
                                     <li>
                                         <a target="_blank" rel="noopener" href="https://github.com/609520262/Entropy-theory" class="btn-social btn-outline"><i class="fa fa-github"></i></a>
@@ -197,7 +200,7 @@
                                     <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
                                         <ol>
                                             <li>
-                                                <details>
+                                                <details open>
                                                     <summary>熵值理论</summary>
                                                     <p class="caption" role="heading"><span class="caption-text">快速上手熵值</span></p>
                                                     <ul>
@@ -633,13 +636,13 @@ more information.</p>
         <div class="container">
             <div class="row">
                 <div class="footer-col col-md-4">
-                    <h4>Location <span class="label label-default">We are here</span>
+                    <h4>位置 <span class="label label-default">We are here</span>
                     </h4>
-                    <p class="white">School of Aeronautics, Friendship Campus, <br>NWPU</br>
+                    <p class="white">陕西省西安市友谊西路127号西北工业大学<br>NWPU</br>
                     </p>
                 </div>
                 <div class="footer-col col-md-4">
-                    <h4>Collaborate with us <span class="label label-default">let's connect</span>
+                    <h4>与我们合作 <span class="label label-default">let's connect</span>
                     </h4>
                     <ul class="list-inline">
                         <li>
@@ -657,10 +660,10 @@ more information.</p>
                     </ul>
                 </div>
                 <div class="footer-col col-md-4">
-                    <h4>About us <span class="label label-default">IMLAB</span>
+                    <h4>关于我们 <span class="label label-default">IMLAB</span>
                     </h4>
                     <img src="/assets/微信图片_20230308214236.jpg" alt="微信图片_20230224174522.jpg" />
-                    <p class="white">Intelligent Operations and Maintenance Laboratory</p>
+                    <p class="white">装备智能运维实验室</p>
                 </div>
 
             </div>
@@ -672,7 +675,8 @@ more information.</p>
 
                 <div class="col-lg-6">
 
-                    <p class="black">Copyright &copy; IMALB 2023,Made by IMLAB</a> In China. </p>
+                    <p class="black">Copyright &copy; IMALB 2023,Made by IMLAB In China.<a target="_blank" rel="noopener" href="http://beian.miit.gov.cn">滇ICP备2023001987</a> </p>
+					
                 </div>
             </div>
         </div>
@@ -742,7 +746,7 @@ pauseOnFocus:false,
     //获取事件代理的父元素section
     let secEle = document.getElementsByClassName("left_news")[0].getElementsByTagName("img")[0];
 
-    let imgArr = ["/assets/微信图片_20230308184719.jpg", "/assets/home-office.jpg", "/assets/微信图片_20230308184719.jpg", "/assets/微信图片_20230313160603.jpg"]
+    let imgArr = ["/assets/News/微信图片_20230416163348.jpg", "/assets/News/微信图片_20230416163150.jpg", "/assets/微信图片_20230308184719.jpg", "/assets/微信图片_20230313160603.jpg"]
         //获取时间函数的起始下标
     let i = 0;
     //图片有多少张，就传几个参进去，并且接收这个返回的数组
