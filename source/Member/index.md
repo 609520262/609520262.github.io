@@ -6,7 +6,7 @@ excerpt: main
 <div class="header_down">
 		<div class="wrap">
 			
-			<h1><span class="pipe">|</span>Shape the world we live in</h1>
+			<h1><span class="pipe">|</span>装备智能运维实验室</h1>
 			<ul class="list-inline">
 				<li>
 					<a href="https://github.com/609520262/Entropy-theory" class="btn-social btn-outline"><i class="fa fa-github"></i></a>
@@ -43,17 +43,16 @@ excerpt: main
     </header>
 	<div class="title_main">
 		<div class="title">
-			<h2>Teachers</h2>
-			<p>Solution Show</p>
+			<h2>老师</h2>
 			<b></b>
 		</div>
 	</div>
 	<div class="ds-container">
 		<div class="ds-container-left">
-			<img class="ds-photo-left" src="/assets/微信图片_20230317193511.jpg"/>
+			<img class="ds-photo-left" src="/assets/微信图片_20230416152558.jpg"/>
 			<div class="ds-intro-left">
-				<h4>Mr.Li</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
+				<h4>李永波</h4>
+				<p>李永波博士，现任西北工业大学副教授，博士生导师。哈尔滨工业大学航天学院博士，加拿大阿尔伯塔大学联合培养博士，英国哈德斯菲尔德大学访问学者。主要从事人工智能、信号处理与故障诊断、模式识别与应用等方向的研究。</p>
 
 				
 			</div>
@@ -63,7 +62,7 @@ excerpt: main
 			<img class="ds-photo-left" src="/assets/Dr. Noman_2023-02-13 11.09.10_mmexport1676257915861_01.jpg"/>
 			<div class="ds-intro-left">
 				<h4>Dr.Noman</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
+				<p></p>
 
 				
 			</div>
@@ -71,8 +70,7 @@ excerpt: main
 	</div>
 	<div class="title_main">
 		<div class="title">
-			<h2>Students</h2>
-			<p>Solution Show</p>
+			<h2>学生</h2>
 			<b></b>
 		</div>
 	</div>
@@ -80,8 +78,8 @@ excerpt: main
 		<div class="ds-container-left">
 			<img class="ds-photo-left" src="/assets/奔月_2023-02-12 10.07.56_mmexport1667981485397_01.jpg"/>
 			<div class="ds-intro-left">
-				<h4>Yongshen Hang</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
+				<h4>黄永生</h4>
+				<p><b>研究阶段：</b>研三</p>
 
 				
 			</div>
@@ -90,8 +88,8 @@ excerpt: main
 		
 			<img class="ds-photo-left" src="/assets/jiasixiang_2023-02-12 12.58.31_C7D45499-1A45-4C9F-AB19-FC3BAE41D4A7_01.png"/>
 			<div class="ds-intro-left">
-				<h4>Sixiang Jia</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
+				<h4>贾思祥</h4>
+				<p><b>研究阶段：</b>在读博二</p>
 
 				
 			</div>
@@ -101,8 +99,8 @@ excerpt: main
 		<div class="ds-container-left">
 			<img class="ds-photo-left" src="/assets/飞行日记_2023-02-11 17.12.29_蓝底_01.png"/>
 			<div class="ds-intro-left">
-				<h4>Shen Ao</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
+				<h4>沈奥</h4>
+				<p><b>研究阶段：</b>在读研一</p>
 
 				
 			</div>
@@ -110,8 +108,8 @@ excerpt: main
 		<div class="ds-container-right">
 			<img class="ds-photo-left" src="/assets/Everglow_2023-02-13 11.13.30_E18D5AC2-A1EC-4873-8BE8-BAD12AAEA4B1_01.jpeg"/>
 			<div class="ds-intro-left">
-				<h4>Jianhao Xu</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
+				<h4>徐建皓</h4>
+				<p><b>研究阶段：</b>在读研二</p>
 
 				
 			</div>
@@ -121,8 +119,8 @@ excerpt: main
 		<div class="ds-container-left">
 			<img class="ds-photo-left" src="/assets/Lebron Bryant_2023-02-13 11.12.51_mmexport1542363693344_01.jpeg"/>
 			<div class="ds-intro-left">
-				<h4>Mao Gang</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
+				<h4>毛刚</h4>
+				<p><b>研究阶段：</b>在读博二</p>
 
 				
 			</div>
@@ -130,9 +128,8 @@ excerpt: main
 		<div class="ds-container-right">
 			<img class="ds-photo-left" src="/assets/Li_2023-02-12 09.13.15_Lii_01.jpg"/>
 			<div class="ds-intro-left">
-				<h4>Yongshen Hang</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
-
+				<h4>李宏伟</h4>
+				<p><b>研究阶段：</b>在读研二</p>
 				
 			</div>
 		</div>
@@ -141,38 +138,34 @@ excerpt: main
 		<div class="ds-container-left">
 			<img class="ds-photo-left" src="/assets/顺_2023-02-13 10.21.47_mmexport1655259047492_01.jpg"/>
 			<div class="ds-intro-left">
-				<h4>Wang Shun</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
-
+				<h4>王顺</h4>
+				<p><b>研究阶段：</b>研三</p>
 				
 			</div>
 		</div>
 		<div class="ds-container-right">
 			<img class="ds-photo-left" src="/assets/🇶 🇮 🇰 🇳_2023-02-11 15.13.22_IMG_20200201_142745_01.jpg"/>
 			<div class="ds-intro-left">
-				<h4>Qiao Bing</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
-
+				<h4>乔彬</h4>
+				<p><b>研究阶段：</b>在读研二</p>
 				
 			</div>
 		</div>
 	</div>
 	<div class="ds-container">
 		<div class="ds-container-left">
-			<img class="ds-photo-left" src="/assets/细细图图_2023-02-11 15.13.24_头像_01.jpg"/>
+			<img class="ds-photo-left" src="/assets/微信图片_20230416140221.jpg"/>
 			<div class="ds-intro-left">
-				<h4>Fu Hao</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
-
+				<h4>付浩</h4>
+				<p><b>研究阶段：</b>在读研二</p>
 				
 			</div>
 		</div>
 		<div class="ds-container-right">
 			<img class="ds-photo-left" src="/assets/赵墨殇_2023-02-11 15.32.51_4AD1DCE5-EDC3-453E-B3EC-263A9F263E57_01.jpeg"/>
 			<div class="ds-intro-left">
-				<h4>Lijiang Zhao</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
-
+				<h4>赵立江</h4>
+				<p><b>研究阶段：</b>在读研一</p>
 				
 			</div>
 		</div>
@@ -181,18 +174,16 @@ excerpt: main
 		<div class="ds-container-left">
 			<img class="ds-photo-left" src="/assets/建华_2023-02-11 18.28.00_mmexport1653041959624_01.jpg"/>
 			<div class="ds-intro-left">
-				<h4>Jianhua Wang</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
-
+				<h4>王建华</h4>
+				<p><b>研究阶段：</b>研三</p>
 				
 			</div>
 		</div>
 		<div class="ds-container-right">
-			<img class="ds-photo-left" src="/assets/细细图图_2023-02-11 15.13.24_头像2_02.jpg"/>
+			<img class="ds-photo-left" src="/assets/微信图片_20230416140808.jpg"/>
 			<div class="ds-intro-left">
-				<h4>Fu hao</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
-
+				<h4>白蕊</h4>
+				<p><b>研究阶段：</b>在读博一</p>
 				
 			</div>
 		</div>
@@ -201,38 +192,34 @@ excerpt: main
 		<div class="ds-container-left">
 			<img class="ds-photo-left" src="/assets/抽抽_2023-02-13 13.17.33_IMG_20230213_131626_01.jpg"/>
 			<div class="ds-intro-left">
-				<h4>Xingyue Wang</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
-
+				<h4>王欣悦</h4>
+				<p><b>研究阶段：</b>在读研二</p>
 				
 			</div>
 		</div>
 		<div class="ds-container-right">
 			<img class="ds-photo-left" src="/assets/任煜_2023-02-11 16.09.06_mmexport1676100383808_01.jpg"/>
 			<div class="ds-intro-left">
-				<h4>Ren Yu</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
-
+				<h4>任煜</h4>
+				<p><b>研究阶段：</b>在读研二</p>
 				
 			</div>
 		</div>
 	</div>
-	<div class="ds-container">
+	<div class="ds-container" id="height-370px">
 		<div class="ds-container-left">
 			<img class="ds-photo-left" src="/assets/郭子文_2023-02-13 11.26.46_mmexport1660699971035_01.jpg"/>
 			<div class="ds-intro-left">
-				<h4>Ziwen Guo</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
-
+				<h4>郭子文</h4>
+				<p><b>研究阶段：</b>研三</p>
 				
 			</div>
 		</div>
 		<div class="ds-container-right">
-			<img class="ds-photo-left" src="/assets/郭子文_2023-02-13 11.26.46_mmexport1660699971035_01.jpg"/>
+			<img class="ds-photo-left" src="/assets/93 蓝1寸(1).jpg"/>
 			<div class="ds-intro-left">
-				<h4>Ziwen Guo</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
-
+				<h4>焦泽航</h4>
+				<p><b>研究阶段：</b>在读研二</p>
 				
 			</div>
 		</div>
@@ -242,18 +229,16 @@ excerpt: main
 		<div class="ds-container-left">
 			<img class="ds-photo-left" src="/assets/似曾相识_2023-02-13 11.25.43_MTXX_MR20230213_112415166_01.jpg"/>
 			<div class="ds-intro-left">
-				<h4>Dingyi Sun</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
-
+				<h4>孙丁一</h4>
+				<p><b>研究阶段：</b>在读博二</p>
 				
 			</div>
 		</div>
 		<div class="ds-container-right">
 			<img class="ds-photo-left" src="/assets/ZZZ_2023-02-11 17.41.25_64C07F8C-6BC4-41AC-9EDF-6C27BCC8E40B_01.jpeg"/>
 			<div class="ds-intro-left">
-				<h4>Zhongzheng Zhang</h4>
-				<p>基于联邦图网络的健康监测<br>无论您是在成熟的组织、政府机构还是初创企业工作，SOLIDWORKS 和 3DEXPERIENCE Works 解决方案都能帮助您将产品构思付诸实践,SOLIDWORKS® 和 3DEXPERIENCE® Works 产品组合将您的整个生态系统结合在一起，使您能够连接来自业务各个方面的人员、应用程序和实时数据，从而提高生产率、增强协作并加速创新。</p>
-
+				<h4>张中正</h4>
+				<p><b>研究阶段：</b>研三</p>
 				
 			</div>
 		</div>

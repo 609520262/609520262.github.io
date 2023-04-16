@@ -6,7 +6,7 @@ excerpt: main
 <div class="header_down">
 		<div class="wrap">
 			
-			<h1><span class="pipe">|</span>Shape the world we live in</h1>
+			<h1><span class="pipe">|</span>装备智能运维实验室</h1>
 			<ul class="list-inline">
 				<li>
 					<a href="https://github.com/609520262/Entropy-theory" class="btn-social btn-outline"><i class="fa fa-github"></i></a>

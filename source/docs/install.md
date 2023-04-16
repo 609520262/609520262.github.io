@@ -36,22 +36,7 @@ date: 2023-03-08 20:11:30
                   <p>本章帮助您获得 <strong>Entropy theory</strong> 的所有源码以及配置您进行熵值实验的所需环境。</p>
                 </section>
                 <section id="entropy-theory">
-                  <h2>二、Entropy theory源码获取<a class="headerlink" href="#entropy-theory" title="此标题的永久链接"></a></h2>
-                  <p>本节内容将演示两种不同的获取Entropy theory的所有源码的方式：</p>
-                  <blockquote>
-                    <div>
-                      <ul class="simple">
-                        <li>
-                          <p>克隆 <code class="docutils literal notranslate"><span class="pre">clone</span></code>
-                            远程Entropy theory的方式</p>
-                        </li>
-                        <li>
-                          <p>直接下载Entropy theory <code
-                              class="docutils literal notranslate"><span class="pre">zip</span></code> 包</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </blockquote>
+               
                   <div class="admonition attention">
                     <p class="admonition-title">注意</p>
                     <p>假如您有一定的 <code class="docutils literal notranslate"><span class="pre">git</span></code>
@@ -64,16 +49,6 @@ date: 2023-03-08 20:11:30
                         href="https://ww2.mathworks.cn/products/matlab.html">MATLAB科学计算平台</a> 请确保您此时的MATLAB版本高于 <code
                         class="docutils literal notranslate"><span class="pre">2019</span></code> 。</p>
                   </div>
-                  <section id="clone-entropy-theory">
-                    <h3>克隆 <code class="docutils literal notranslate"><span class="pre">clone</span></code> 远程Entropy
-                      theory<a class="headerlink" href="#clone-entropy-theory" title="此标题的永久链接"></a></h3>
-                    <div class="highlight-console notranslate">
-                      <div class="highlight">
-                        <pre><span></span><span class="gp">$  </span>git clone https://github.com/609520262/Entropy-theory.git
-</pre>
-                      </div>
-                    </div>
-                  </section>
                   <section id="entropy-theory-zip">
                     <h3>直接下载Entropy theory <code
                         class="docutils literal notranslate"><span class="pre">zip</span></code> 包<a class="headerlink"
@@ -86,29 +61,7 @@ date: 2023-03-08 20:11:30
                           theory <code class="docutils literal notranslate"><span class="pre">zip</span></code> 包</p>
                       </div>
                     </blockquote>
-                    <p>Entropy theory的代码框架如下：</p>
-                    <div class="highlight-default notranslate">
-                      <div class="highlight">
-                        <pre><span></span>├── ApproximateEntropy.m
-├── DEparameter.m
-├── DistEn.m
-├── MultiDispEn.m
-├── MultiscaleFuzzyEntropy_pdist_paran.m
-├── MultiscalePermutationEntropy.m
-├── N205.mat
-├── README.md
-├── SampleEntropy.m
-├── code_MSDE
-│   ├── MultiscaleSymbolicDynamicEntropy.m
-│   ├── PartitionGeneration.m
-│   ├── SymbolEntropy.m
-│   └── SymbolGeneration.m
-├── code_MSDE.zip
-├── main.asv
-└── main.m
-</pre>
-                      </div>
-                    </div>
+                    
                   </section>
                 </section>
               </section>
