@@ -67,7 +67,7 @@ date: 2023-03-08 22:05:12
 <section id="id3">
 <h2>代码实现<a class="headerlink" href="#id3" title="此标题的永久链接"></a></h2>
 <p>这里假设您已经获得本项目的的所有代码，若您此时还未获得有关程序，请移步到  <a class="reference internal" href="../install.html"><span class="doc">安装说明</span></a></p>
-<p>模糊熵(Fuzzy entropy)的核心程序为  <code class="docutils literal notranslate"><span class="pre">MultiscalePermutationEntropy</span></code></p>
+<p>排列熵(Permutation entropy)的核心程序为  <code class="docutils literal notranslate"><span class="pre">MultiscalePermutationEntropy</span></code></p>
 <div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">function</span><span class="w"> </span><span class="n">MPE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">MultiscalePermutationEntropy</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="n">m</span><span class="p">,</span><span class="n">t</span><span class="p">,</span><span class="n">scale</span><span class="p">)</span><span class="w"></span>
 <span class="w">    </span><span class="n">MPE</span><span class="o">=</span><span class="p">[];</span><span class="w"></span>
 <span class="w">   </span><span class="k">for</span><span class="w"> </span><span class="n">j</span><span class="o">=</span><span class="mi">1</span><span class="o">:</span><span class="n">scale</span><span class="w"></span>

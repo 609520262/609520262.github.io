@@ -67,7 +67,7 @@ date: 2023-03-08 22:08:48
 <section id="id5">
 <h2>代码实现<a class="headerlink" href="#id5" title="此标题的永久链接"></a></h2>
 <p>这里假设您已经获得本项目的的所有代码，若您此时还未获得有关程序，请移步到  <a class="reference internal" href="../install.html"><span class="doc">安装说明</span></a></p>
-<p>符号动力学熵(Symbolic dynamic Entropy)的核心程序为  <code class="docutils literal notranslate"><span class="pre">MultiDispEn</span></code></p>
+<p>色散熵(Dispersion entropy)的核心程序为  <code class="docutils literal notranslate"><span class="pre">MultiDispEn</span></code></p>
 <div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span>function [MDE]=MultiDispEn(data,m,nc,tau,scale)
 
   MDE=[];
