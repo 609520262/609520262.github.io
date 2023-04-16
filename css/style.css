@@ -15775,9 +15775,7 @@ a.list-group-item-danger.active:focus {
             height: 40px;
             min-height: 40px;
         }
-        .content {
-            height: 30vh;
-        }
+        
         h1 {
             font-size: 24px;
         }
