@@ -465,416 +465,158 @@
 
                             
 
-
-  <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" aria-label="top navigation">
-        
+  <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">PaddleClas</a>
-        
+          <a href="../../index.html">Entropy theory</a>
       </nav>
 
-
       <div class="wy-nav-content">
-        
         <div class="rst-content">
-        
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div role="navigation" aria-label="breadcrumbs navigation">
-
+          <div role="navigation" aria-label="页面导航">
   <ul class="wy-breadcrumbs">
-    
-      <li><a href="../index.html">Docs</a> »</li>
-        
-          <li><a href="index.html">初级使用</a> »</li>
-        
-      <li>配置说明</li>
-    
-    
-      <li class="wy-breadcrumbs-aside">
-        
-            
-            
-              <a target="_blank" rel="noopener" href="https://github.com/PaddlePaddle/PaddleClas/blob/master/docs/zh_CN/tutorials/config.md" class="fa fa-github"> Edit on GitHub</a>
-            
-          
-        
-      </li>
-    
-  </ul>
+      <li><a href="../../index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">Symbolic dynamic Entropy</li>
+<li class="wy-breadcrumbs-aside">
+   <a target="_blank" rel="noopener" href="https://github.com/609520262/Deploy-static-content-to-Pages/tree/main/docs/index.rst" class="fa fa-github"> Edit it on GitHub</a>
+</li>
 
-  
-  <hr>
+  </ul>
+  <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-            
-  <div class="section" id="id1">
-<h1>配置说明<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
-<hr class="docutils">
-<div class="section" id="id2">
-<h2>简介<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
-<p>本文档介绍了PaddleClas配置文件(configs/*.yaml)中各参数的含义，以便您更快的自定义或修改超参数配置。</p>
+             
+  <section id="symbolic-dynamic-entropy">
+<h1>Symbolic dynamic Entropy<a class="headerlink" href="#symbolic-dynamic-entropy" title="此标题的永久链接"></a></h1>
+<section id="id1">
+<h2>Basic principle<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h2>
+<p>Given a time series <span class="math notranslate nohighlight">\(\left\{{u\left(i \right),1 \le i \le N} \right\}\)</span>of length <span class="math notranslate nohighlight">\(N\)</span> , the symbolic kinetic entropy is calculated as follows:</p>
+<ol class="arabic simple">
+<li><p>The maximum entropy partition (MEP) is used to symbolize the time series in amplitude domain. The elements of a time series are converted to symbols <span class="math notranslate nohighlight">\({\sigma _i}\left({i = 1,2, \cdots,\varepsilon} \right)\)</span>. You can get the symbolized time series <span class="math notranslate nohighlight">\(Z\left\{{z\left(k \right),k = 1,2, \cdots,N} \right\}\)</span>.</p></li>
+<li><p>The symbolic time series is reconstructed in phase space and the probability of possible state modes is calculated. The embedding dimension is <span class="math notranslate nohighlight">\(m\)</span>, When time delay is <span class="math notranslate nohighlight">\(\lambda\)</span>, <span class="math notranslate nohighlight">\(Z\left\{{z\left(k \right),k = 1,2, \cdots,N} \right\}\)</span> Reconstructing the phase space yields a series of embedding vectors:</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[Z_j^{m,\lambda }\left\{ {z\left( j \right),z\left( {j + 1 \times \lambda } \right), \cdots ,z\left( {j + \left( {m - 1} \right) \times \lambda } \right)} \right\},j = 1,2, \cdots ,N - \left( {m - 1} \right)\lambda \tag{1}\]</div>
+<div class="admonition important">
+<p class="admonition-title">重要</p>
+<p>The vector <span class="math notranslate nohighlight">\(Z_j^{m,\lambda}\)</span> has <span class="math notranslate nohighlight">\(m\)</span> elements, each of which has <span class="math notranslate nohighlight">\(\varepsilon\)</span> possible symbols, Therefore, there are <span class="math notranslate nohighlight">\({\varepsilon ^m}\)</span> possible state modes. The state of a vector can be expressed as <span class="math notranslate nohighlight">\(q_a^{\varepsilon,m,\lambda}\left({a = 1,2, \cdots,{\varepsilon ^m}} \right)\)</span>. Therefore, Probability of possible state modes <span class="math notranslate nohighlight">\(P\left({q_a^{\varepsilon,m,\lambda}} \right)\)</span> It can be calculated as follows:</p>
 </div>
-<div class="section" id="id3">
-<h2>配置详解<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
-<div class="section" id="id4">
-<h3>基础配置<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h3>
-<div class="wy-table-responsive"><table border="1" class="docutils">
-<thead>
-<tr>
-<th align="center">参数名字</th>
-<th align="center">具体含义</th>
-<th align="center">默认值</th>
-<th align="center">可选值</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">mode</td>
-<td align="center">运行模式</td>
-<td align="center">"train"</td>
-<td align="center">["train"," valid"]</td>
-</tr>
-<tr>
-<td align="center">architecture</td>
-<td align="center">模型结构名字</td>
-<td align="center">"ResNet50_vd"</td>
-<td align="center">PaddleClas提供的模型结构</td>
-</tr>
-<tr>
-<td align="center">pretrained_model</td>
-<td align="center">预训练模型路径</td>
-<td align="center">""</td>
-<td align="center">Str</td>
-</tr>
-<tr>
-<td align="center">model_save_dir</td>
-<td align="center">保存模型路径</td>
-<td align="center">""</td>
-<td align="center">Str</td>
-</tr>
-<tr>
-<td align="center">classes_num</td>
-<td align="center">分类数</td>
-<td align="center">1000</td>
-<td align="center">int</td>
-</tr>
-<tr>
-<td align="center">total_images</td>
-<td align="center">总图片数</td>
-<td align="center">1281167</td>
-<td align="center">int</td>
-</tr>
-<tr>
-<td align="center">save_interval</td>
-<td align="center">每隔多少个epoch保存模型</td>
-<td align="center">1</td>
-<td align="center">int</td>
-</tr>
-<tr>
-<td align="center">validate</td>
-<td align="center">是否在训练时进行评估</td>
-<td align="center">TRUE</td>
-<td align="center">bool</td>
-</tr>
-<tr>
-<td align="center">valid_interval</td>
-<td align="center">每隔多少个epoch进行模型评估</td>
-<td align="center">1</td>
-<td align="center">int</td>
-</tr>
-<tr>
-<td align="center">epochs</td>
-<td align="center">训练总epoch数</td>
-<td align="center"></td>
-<td align="center">int</td>
-</tr>
-<tr>
-<td align="center">topk</td>
-<td align="center">评估指标K值大小</td>
-<td align="center">5</td>
-<td align="center">int</td>
-</tr>
-<tr>
-<td align="center">image_shape</td>
-<td align="center">图片大小</td>
-<td align="center">[3，224，224]</td>
-<td align="center">list, shape: (3,)</td>
-</tr>
-<tr>
-<td align="center">use_mix</td>
-<td align="center">是否启用mixup</td>
-<td align="center">False</td>
-<td align="center">['True', 'False']</td>
-</tr>
-<tr>
-<td align="center">ls_epsilon</td>
-<td align="center">label_smoothing epsilon值</td>
-<td align="center">0</td>
-<td align="center">float</td>
-</tr>
-</tbody>
-</table></div></div>
-<div class="section" id="id5">
-<h3>学习率与优化器<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h3>
-<p>学习率</p>
-<div class="wy-table-responsive"><table border="1" class="docutils">
-<thead>
-<tr>
-<th align="center">参数名字</th>
-<th align="center">具体含义</th>
-<th align="center">默认值</th>
-<th align="center">可选值</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">function</td>
-<td align="center">decay方法名</td>
-<td align="center">"Linear"</td>
-<td align="center">["Linear", "Cosine", <br> "Piecewise", "CosineWarmup"]</td>
-</tr>
-<tr>
-<td align="center">params.lr</td>
-<td align="center">初始学习率</td>
-<td align="center">0.1</td>
-<td align="center">float</td>
-</tr>
-<tr>
-<td align="center">params.decay_epochs</td>
-<td align="center">piecewisedecay中<br>衰减学习率的milestone</td>
-<td align="center"></td>
-<td align="center">list</td>
-</tr>
-<tr>
-<td align="center">params.gamma</td>
-<td align="center">piecewisedecay中gamma值</td>
-<td align="center">0.1</td>
-<td align="center">float</td>
-</tr>
-<tr>
-<td align="center">params.warmup_epoch</td>
-<td align="center">warmup轮数</td>
-<td align="center">5</td>
-<td align="center">int</td>
-</tr>
-<tr>
-<td align="center">parmas.steps</td>
-<td align="center">lineardecay衰减steps数</td>
-<td align="center">100</td>
-<td align="center">int</td>
-</tr>
-<tr>
-<td align="center">params.end_lr</td>
-<td align="center">lineardecayend_lr值</td>
-<td align="center">0</td>
-<td align="center">float</td>
-</tr>
-</tbody>
-</table></div><p>优化器</p>
-<div class="wy-table-responsive"><table border="1" class="docutils">
-<thead>
-<tr>
-<th align="center">参数名字</th>
-<th align="center">具体含义</th>
-<th align="center">默认值</th>
-<th align="center">可选值</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">function</td>
-<td align="center">优化器方法名</td>
-<td align="center">"Momentum"</td>
-<td align="center">["Momentum", "RmsProp"]</td>
-</tr>
-<tr>
-<td align="center">params.momentum</td>
-<td align="center">momentum值</td>
-<td align="center">0.9</td>
-<td align="center">float</td>
-</tr>
-<tr>
-<td align="center">regularizer.function</td>
-<td align="center">正则化方法名</td>
-<td align="center">"L2"</td>
-<td align="center">["L1", "L2"]</td>
-</tr>
-<tr>
-<td align="center">regularizer.factor</td>
-<td align="center">正则化系数</td>
-<td align="center">0.0001</td>
-<td align="center">float</td>
-</tr>
-</tbody>
-</table></div></div>
-<div class="section" id="id6">
-<h3>数据读取器与数据处理<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h3>
-<div class="wy-table-responsive"><table border="1" class="docutils">
-<thead>
-<tr>
-<th align="center">参数名字</th>
-<th align="center">具体含义</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">batch_size</td>
-<td align="center">批大小</td>
-</tr>
-<tr>
-<td align="center">num_workers</td>
-<td align="center">数据读取器worker数量</td>
-</tr>
-<tr>
-<td align="center">file_list</td>
-<td align="center">train文件列表</td>
-</tr>
-<tr>
-<td align="center">data_dir</td>
-<td align="center">train文件路径</td>
-</tr>
-<tr>
-<td align="center">shuffle_seed</td>
-<td align="center">用来进行shuffle的seed值</td>
-</tr>
-</tbody>
-</table></div><p>数据处理</p>
-<div class="wy-table-responsive"><table border="1" class="docutils">
-<thead>
-<tr>
-<th align="center">功能名字</th>
-<th align="center">参数名字</th>
-<th align="center">具体含义</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">DecodeImage</td>
-<td align="center">to_rgb</td>
-<td align="center">数据转RGB</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center">to_np</td>
-<td align="center">数据转numpy</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center">channel_first</td>
-<td align="center">按CHW排列的图片数据</td>
-</tr>
-<tr>
-<td align="center">RandCropImage</td>
-<td align="center">size</td>
-<td align="center">随机裁剪</td>
-</tr>
-<tr>
-<td align="center">RandFlipImage</td>
-<td align="center"></td>
-<td align="center">随机翻转</td>
-</tr>
-<tr>
-<td align="center">NormalizeImage</td>
-<td align="center">scale</td>
-<td align="center">归一化scale值</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center">mean</td>
-<td align="center">归一化均值</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center">std</td>
-<td align="center">归一化方差</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center">order</td>
-<td align="center">归一化顺序</td>
-</tr>
-<tr>
-<td align="center">ToCHWImage</td>
-<td align="center"></td>
-<td align="center">调整为CHW</td>
-</tr>
-<tr>
-<td align="center">CropImage</td>
-<td align="center">size</td>
-<td align="center">裁剪大小</td>
-</tr>
-<tr>
-<td align="center">ResizeImage</td>
-<td align="center">resize_short</td>
-<td align="center">按短边调整大小</td>
-</tr>
-</tbody>
-</table></div><p>mix处理</p>
-<div class="wy-table-responsive"><table border="1" class="docutils">
-<thead>
-<tr>
-<th align="center">参数名字</th>
-<th align="center">具体含义</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">MixupOperator.alpha</td>
-<td align="center">mixup处理中的alpha值</td>
-</tr>
-</tbody>
-</table></div></div>
+<div class="math notranslate nohighlight">
+\[P\left( {q_a^{\varepsilon ,m,\lambda }} \right) = \frac{{\left\| {\left\{ {j:j \le N - \left( {m - 1} \right)\lambda ,type\left( {Z_j^{\varepsilon ,m,\lambda }} \right) = q_a^{\varepsilon ,m,\lambda }} \right\}} \right\|}}{{N - \left( {m - 1} \right)\lambda }} \tag{2}\]</div>
+<ol class="arabic simple" start="3">
+<li><p>Construct state transition and calculate state transition probability. State transition refers to a symbolic time series that moves from one state to the next (including a self-loop). When the status mode is <span class="math notranslate nohighlight">\(q_a^{\varepsilon,m,\lambda}\left({a = 1,2, \cdots,{\varepsilon ^m}} \right)\)</span>, Transfer to next state The state transition probability is the symbol <span class="math notranslate nohighlight">\({\sigma _b}\left({b = 1,2, \cdots,\varepsilon} \right)\)</span> the conditional probability is as follows:</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[P\left( {{\sigma _b}|q_a^{\varepsilon ,m,\lambda }} \right) = P\left\{ {z\left( {j + m\lambda } \right) = {\sigma _b}|j:j \le N - m\lambda ,type\left( {Z_j^{\varepsilon ,m,\lambda }} \right) = q_a^{\varepsilon ,m,\lambda }} \right\}    \tag{3}\]</div>
+<div class="admonition important">
+<p class="admonition-title">重要</p>
+<p>Where <span class="math notranslate nohighlight">\(a = 1,2, \cdots,{\varepsilon ^m}\)</span>, <span class="math notranslate nohighlight">\(b = 1,2, \cdots,\varepsilon\)</span>, <span class="math notranslate nohighlight">\(\varepsilon\)</span> is a symbol number, <span class="math notranslate nohighlight">\({\varepsilon ^m}\)</span> is the number of states. The state probability satisfies the condition <span class="math notranslate nohighlight">\(\sum\limits_{b = 1}^\varepsilon  {P\left( {{\sigma _b}|q_a^{\varepsilon ,m,\lambda }} \right)}  = 1\)</span>. <span class="math notranslate nohighlight">\(P\left({{\sigma _b}|q_a^{\varepsilon,m,\lambda}} \right)\)</span> can be expressed as:</p>
 </div>
+<div class="math notranslate nohighlight">
+\[P\left( {{\sigma _b}|q_a^{\varepsilon ,m,\lambda }} \right) = \frac{{\left\| {\left\{ {j:j \le N - m\lambda ,type\left( {Z_j^{\varepsilon ,m,\lambda }} \right) = q_a^{\varepsilon ,m,\lambda },z\left( {j + m\lambda } \right) = {\sigma _b}} \right\}} \right\|}}{{N - m\lambda }} \tag{4}\]</div>
+<ol class="arabic simple" start="4">
+<li><p>Symbolic kinetic entropy is defined as the sum of state entropy and state transition entropy, expressed as:</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[SDE\left( {X,m,\lambda ,\varepsilon } \right) =  - \sum\limits_{a = 1}^{{\varepsilon ^m}} {P\left( {q_a^{\varepsilon ,m,\lambda }} \right)\ln P\left( {q_a^{\varepsilon ,m,\lambda }} \right)}  - \sum\limits_{a = 1}^{{\varepsilon ^m}} {\sum\limits_{b = 1}^\varepsilon  {P\left( {q_a^{\varepsilon ,m,\lambda }} \right)\ln \left( {P\left( {q_a^{\varepsilon ,m,\lambda }} \right)P\left( {{\sigma _b}|q_a^{\varepsilon ,m,\lambda }} \right)} \right)} }   \tag{5}\]</div>
+<ol class="arabic simple" start="5">
+<li><p>The maximum symbolic entropy is <span class="math notranslate nohighlight">\(\ln \left({{\varepsilon ^{m + 1}}} \right)\)</span>, This means that all state probabilities and state transition probabilities have the same value <span class="math notranslate nohighlight">\(\left(P\left(q_{a}^{\varepsilon,m,\lambda} \right)={1}/{{{\varepsilon }^{m}}}\; ,P\left( {{\sigma }_{b}}|q_{a}^{\varepsilon ,m,\lambda } \right)={1}/{\varepsilon }\;  \right)\)</span>. The symbolic dynamic entropy after standardized processing can be expressed as:</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[SDE\left( X,m,\lambda ,\varepsilon  \right)={SDE\left( X,m,\lambda ,\varepsilon  \right)}/{\ln \left( {{\varepsilon }^{m+1}} \right)} \tag{6}\]</div>
+<div class="admonition note">
+<p class="admonition-title">备注</p>
+<p>Symbolic dynamic entropy is proposed by Li et al. <a class="footnote-reference brackets" href="#id9" id="id2">1</a>, and the suggested parameters are as follows:</p>
+<ul class="simple">
+<li><p>Embedding dimension  <span class="math notranslate nohighlight">\(m = 3\)</span></p></li>
+<li><p>Symbolic number  <span class="math notranslate nohighlight">\(\varepsilon  = 12\)</span></p></li>
+<li><p>Time delay  <span class="math notranslate nohighlight">\(\lambda  = 1\)</span></p></li>
+</ul>
 </div>
+</section>
+<section id="id3">
+<h2>Code implementation<a class="headerlink" href="#id3" title="此标题的永久链接"></a></h2>
+<p>It is assumed that you have obtained all the code for this project, if you have not obtained the relevant program at this time, please go to  <a class="reference internal" href="../install.html"><span class="doc">Installation instructions</span></a></p>
+<p>The core program of Symbolic dynamic Entropy is  <code class="docutils literal notranslate"><span class="pre">MultiscaleSymbolicDynamicEntropy</span></code></p>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span>function MSDE=MultiscaleSymbolicDynamicEntropy(data,m,Sym,scale)
+
+   MSDE=[];
+   data=data&#39;;
+   for j=1:scale
+      Xs = Multi(data,j,2);
+      SDE=SymbolDynamicEntropy(Xs,m,Sym);
+      MSDE=[MSDE,SDE];
+   end
+ end
+</pre></div>
+</div>
+<div class="admonition important">
+<p class="admonition-title">重要</p>
+<p>The information of each input parameter is as follows:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">data</span></code>: The input time series is the column vector</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">m</span></code>: Embedding dimension</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Sym</span></code>: symbol sequence</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">scale</span></code>: scale ratio</p></li>
+</ul>
+</div>
+</section>
+<section id="id4">
+<h2>Simulation verification<a class="headerlink" href="#id4" title="此标题的永久链接"></a></h2>
+<section id="id5">
+<h3>Pulse detection results of symbolic kinetic entropy<a class="headerlink" href="#id5" title="此标题的永久链接"></a></h3>
+<figure class="align-center">
+<img alt="Pulse detection results of symbolic kinetic entropy" src="/assets/Downloads/单尺度脉冲检测结果/SDE.emf.svg" />
+</figure>
+</section>
+<section id="id6">
+<h3>Visual results of fault classification based on multi-scale symbolic dynamic entropy<a class="headerlink" href="#id6" title="此标题的永久链接"></a></h3>
+<figure class="align-center">
+<img alt="Visual results of fault classification based on multi-scale symbolic dynamic entropy" src="/assets/Downloads/多尺度可视化结果/MultiSymbolicDynamicEntropy.emf.svg" />
+</figure>
+</section>
+<section id="id7">
+<h3>Noise resistance analysis<a class="headerlink" href="#id7" title="此标题的永久链接"></a></h3>
+<figure class="align-center">
+<img alt="Noise resistance analysis" src="/assets/Downloads/抗噪性结果/SDE.emf.svg" />
+</figure>
+</section>
+<section id="id8">
+<h3>Computational efficiency result<a class="headerlink" href="#id8" title="此标题的永久链接"></a></h3>
+<figure class="align-center">
+<img alt="Computational efficiency result" src="/assets/Downloads/计算效率结果/SDE.emf.svg" />
+</figure>
+<dl class="footnote brackets">
+<dt class="label" id="id9"><span class="brackets"><a class="fn-backref" href="#id2">1</a></span></dt>
+<dd><ol class="upperalpha simple" start="25">
+<li><p>Li, Y. Yang, G. Li, M. Xu, and W. Huang, “A fault diagnosis scheme for planetary gearboxes using modified multi-scale symbolic dynamic entropy and mRMR feature selection,” Mech. Syst. Signal Process., vol. 91, pp. 295–312, Jul. 2017, doi: 10.1016/j.ymssp.2016.12.040.</p></li>
+</ol>
+</dd>
+</dl>
+</section>
+</section>
+</section>
 
 
            </div>
-           
           </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="../models/index.html" class="btn btn-neutral float-right" title="模型库" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="getting_started.html" class="btn btn-neutral float-left" title="开始使用" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="6%20Distribution%20Entropy.html" class="btn btn-neutral float-left" title="分布熵(Distribution Entropy)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="8%20Dispersion%20Entropy.html" class="btn btn-neutral float-right" title="色散熵(Dispersion Entropy)" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
-  
 
-  <hr><div><div id="rtd-sidebar" data-ea-publisher="readthedocs" data-ea-type="readthedocs-sidebar" data-ea-manual="true" class="ethical-rtd" data-ea-keywords="only words|paddleclas|readthedocs-project-593273|readthedocs-project-paddleclas" data-ea-campaign-types="community|house|paid"></div></div>
+  <hr/>
 
-  
+ 
+   
+
 </footer>
-
         </div>
       </div>
-
     </section>
-	
-	
-	
 
+
+  
                                 <aside class="toc">
                                     <nav>
                                         <div class="document-toc-container">

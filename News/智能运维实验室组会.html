@@ -246,6 +246,44 @@
 
             }
         });
+		if (window.location.pathname==='/docs/en/'){
+		
+		$(".button-wrap span:last-child").text("English (US)");
+		$(".wy-menu-vertical summary").text('Entropy theory');
+		
+		var second_title = ['Quick start entropy','Entropy theory','About us'];
+		$(".wy-menu-vertical .caption-text").each(function(index, domEle) {
+
+        $(domEle).text(second_title[index]);
+    });
+		
+		var englist_item = $(".wy-menu-vertical .reference.internal");
+		englist_item.each(function(){
+			var temp = $(this).text().match(/\(([^)]*)\)/);
+			$(this).text(temp[1]);
+			});
+		
+		
+		
+		}
+		else{
+		$(".button-wrap span:last-child").text("中文(简体)");
+
+		}
+		$("#languages-switcher-button").click(function(){
+		if ($(".button-wrap span:last-child").text() ==="中文(简体)"){
+		
+		$(location).attr('href','/docs/en/');
+		
+		
+		
+		}
+		else{
+		
+		$(location).attr('href','/docs/');
+		
+		}
+		});
 
         var articleBody = $('div.document');
         var documenTocList = $('.document-toc-list');
@@ -257,6 +295,7 @@
             $('.toc').find(text).removeClass('active');
 
         });
+	
 
         function getPos(obj) {
 
@@ -294,6 +333,7 @@
 
 
         });
+		
 
     })
 </script>	

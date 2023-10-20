@@ -68,6 +68,45 @@
         float: left;
         text-transform: uppercase;
     }
+	.languages-switcher-menu{
+		float:right;
+		margin-top: 8px;
+		margin-left:12px;
+	}
+	.languages-switcher-menu .button-wrap {
+    align-items: center;
+    background-color: transparent;
+
+    color: #4e4e4e;
+    display: flex;
+    font: 1000 0.694rem /1.23 Inter,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    gap: .25rem;
+    height: 1.75rem;
+    justify-content: center;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    position: relative;
+}
+.icon.icon-language {
+
+	background-color: #4e4e4e;
+    -webkit-mask-image: url(/assets/language.e4289910782fa8d1c882.svg);
+    mask-image: url(/assets/language.e4289910782fa8d1c882.svg);
+}
+.icon {
+    --size:1rem;
+ 
+    display: inline-block;
+    flex-shrink: 0;
+    height: 1rem;
+    height: 1rem;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    vertical-align: middle;
+    width: 1rem;
+}
     
     .banner {
         min-width: 1500px;
@@ -78,7 +117,7 @@
     
     .header_down .list-inline {
         float: right;
-        width: 300px;
+      
         margin-top: 6.5px;
     }
     

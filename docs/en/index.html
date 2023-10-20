@@ -466,415 +466,77 @@
                             
 
 
-  <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
-      
-      <nav class="wy-nav-top" aria-label="top navigation">
-        
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">PaddleClas</a>
-        
-      </nav>
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+        <nav class="wy-nav-top" aria-label="移动版导航菜单">
+            <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+            <a href="#">Entropy theory</a>
+        </nav>
 
+        <div class="wy-nav-content">
+            <div class="rst-content">
+                <div role="navigation" aria-label="页面导航">
+                    <ul class="wy-breadcrumbs">
+                        <li>
+                            <a href="#" class="icon icon-home"></a>
+                        </li>
+                        <li class="breadcrumb-item active">Welcome to Entropy theory’s Lab!</li>
+                        <li class="wy-breadcrumbs-aside">
+                            <a target="_blank" rel="noopener" href="https://github.com/609520262/Deploy-static-content-to-Pages/tree/main/docs/index.rst" class="fa fa-github"> Edit it on GitHub</a>
+                        </li>
 
-      <div class="wy-nav-content">
-        
-        <div class="rst-content">
-        
-          
+                    </ul>
+                    <hr/>
+                </div>
+                <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+                    <div itemprop="articleBody">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div role="navigation" aria-label="breadcrumbs navigation">
-
-  <ul class="wy-breadcrumbs">
-    
-      <li><a href="../index.html">Docs</a> »</li>
-        
-          <li><a href="index.html">初级使用</a> »</li>
-        
-      <li>配置说明</li>
-    
-    
-      <li class="wy-breadcrumbs-aside">
-        
-            
-            
-              <a target="_blank" rel="noopener" href="https://github.com/PaddlePaddle/PaddleClas/blob/master/docs/zh_CN/tutorials/config.md" class="fa fa-github"> Edit on GitHub</a>
-            
-          
-        
-      </li>
-    
-  </ul>
-
-  
-  <hr>
-</div>
-          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-           <div itemprop="articleBody">
-            
-  <div class="section" id="id1">
-<h1>配置说明<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
-<hr class="docutils">
-<div class="section" id="id2">
-<h2>简介<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
-<p>本文档介绍了PaddleClas配置文件(configs/*.yaml)中各参数的含义，以便您更快的自定义或修改超参数配置。</p>
-</div>
-<div class="section" id="id3">
-<h2>配置详解<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
-<div class="section" id="id4">
-<h3>基础配置<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h3>
-<div class="wy-table-responsive"><table border="1" class="docutils">
-<thead>
-<tr>
-<th align="center">参数名字</th>
-<th align="center">具体含义</th>
-<th align="center">默认值</th>
-<th align="center">可选值</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">mode</td>
-<td align="center">运行模式</td>
-<td align="center">"train"</td>
-<td align="center">["train"," valid"]</td>
-</tr>
-<tr>
-<td align="center">architecture</td>
-<td align="center">模型结构名字</td>
-<td align="center">"ResNet50_vd"</td>
-<td align="center">PaddleClas提供的模型结构</td>
-</tr>
-<tr>
-<td align="center">pretrained_model</td>
-<td align="center">预训练模型路径</td>
-<td align="center">""</td>
-<td align="center">Str</td>
-</tr>
-<tr>
-<td align="center">model_save_dir</td>
-<td align="center">保存模型路径</td>
-<td align="center">""</td>
-<td align="center">Str</td>
-</tr>
-<tr>
-<td align="center">classes_num</td>
-<td align="center">分类数</td>
-<td align="center">1000</td>
-<td align="center">int</td>
-</tr>
-<tr>
-<td align="center">total_images</td>
-<td align="center">总图片数</td>
-<td align="center">1281167</td>
-<td align="center">int</td>
-</tr>
-<tr>
-<td align="center">save_interval</td>
-<td align="center">每隔多少个epoch保存模型</td>
-<td align="center">1</td>
-<td align="center">int</td>
-</tr>
-<tr>
-<td align="center">validate</td>
-<td align="center">是否在训练时进行评估</td>
-<td align="center">TRUE</td>
-<td align="center">bool</td>
-</tr>
-<tr>
-<td align="center">valid_interval</td>
-<td align="center">每隔多少个epoch进行模型评估</td>
-<td align="center">1</td>
-<td align="center">int</td>
-</tr>
-<tr>
-<td align="center">epochs</td>
-<td align="center">训练总epoch数</td>
-<td align="center"></td>
-<td align="center">int</td>
-</tr>
-<tr>
-<td align="center">topk</td>
-<td align="center">评估指标K值大小</td>
-<td align="center">5</td>
-<td align="center">int</td>
-</tr>
-<tr>
-<td align="center">image_shape</td>
-<td align="center">图片大小</td>
-<td align="center">[3，224，224]</td>
-<td align="center">list, shape: (3,)</td>
-</tr>
-<tr>
-<td align="center">use_mix</td>
-<td align="center">是否启用mixup</td>
-<td align="center">False</td>
-<td align="center">['True', 'False']</td>
-</tr>
-<tr>
-<td align="center">ls_epsilon</td>
-<td align="center">label_smoothing epsilon值</td>
-<td align="center">0</td>
-<td align="center">float</td>
-</tr>
-</tbody>
-</table></div></div>
-<div class="section" id="id5">
-<h3>学习率与优化器<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h3>
-<p>学习率</p>
-<div class="wy-table-responsive"><table border="1" class="docutils">
-<thead>
-<tr>
-<th align="center">参数名字</th>
-<th align="center">具体含义</th>
-<th align="center">默认值</th>
-<th align="center">可选值</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">function</td>
-<td align="center">decay方法名</td>
-<td align="center">"Linear"</td>
-<td align="center">["Linear", "Cosine", <br> "Piecewise", "CosineWarmup"]</td>
-</tr>
-<tr>
-<td align="center">params.lr</td>
-<td align="center">初始学习率</td>
-<td align="center">0.1</td>
-<td align="center">float</td>
-</tr>
-<tr>
-<td align="center">params.decay_epochs</td>
-<td align="center">piecewisedecay中<br>衰减学习率的milestone</td>
-<td align="center"></td>
-<td align="center">list</td>
-</tr>
-<tr>
-<td align="center">params.gamma</td>
-<td align="center">piecewisedecay中gamma值</td>
-<td align="center">0.1</td>
-<td align="center">float</td>
-</tr>
-<tr>
-<td align="center">params.warmup_epoch</td>
-<td align="center">warmup轮数</td>
-<td align="center">5</td>
-<td align="center">int</td>
-</tr>
-<tr>
-<td align="center">parmas.steps</td>
-<td align="center">lineardecay衰减steps数</td>
-<td align="center">100</td>
-<td align="center">int</td>
-</tr>
-<tr>
-<td align="center">params.end_lr</td>
-<td align="center">lineardecayend_lr值</td>
-<td align="center">0</td>
-<td align="center">float</td>
-</tr>
-</tbody>
-</table></div><p>优化器</p>
-<div class="wy-table-responsive"><table border="1" class="docutils">
-<thead>
-<tr>
-<th align="center">参数名字</th>
-<th align="center">具体含义</th>
-<th align="center">默认值</th>
-<th align="center">可选值</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">function</td>
-<td align="center">优化器方法名</td>
-<td align="center">"Momentum"</td>
-<td align="center">["Momentum", "RmsProp"]</td>
-</tr>
-<tr>
-<td align="center">params.momentum</td>
-<td align="center">momentum值</td>
-<td align="center">0.9</td>
-<td align="center">float</td>
-</tr>
-<tr>
-<td align="center">regularizer.function</td>
-<td align="center">正则化方法名</td>
-<td align="center">"L2"</td>
-<td align="center">["L1", "L2"]</td>
-</tr>
-<tr>
-<td align="center">regularizer.factor</td>
-<td align="center">正则化系数</td>
-<td align="center">0.0001</td>
-<td align="center">float</td>
-</tr>
-</tbody>
-</table></div></div>
-<div class="section" id="id6">
-<h3>数据读取器与数据处理<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h3>
-<div class="wy-table-responsive"><table border="1" class="docutils">
-<thead>
-<tr>
-<th align="center">参数名字</th>
-<th align="center">具体含义</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">batch_size</td>
-<td align="center">批大小</td>
-</tr>
-<tr>
-<td align="center">num_workers</td>
-<td align="center">数据读取器worker数量</td>
-</tr>
-<tr>
-<td align="center">file_list</td>
-<td align="center">train文件列表</td>
-</tr>
-<tr>
-<td align="center">data_dir</td>
-<td align="center">train文件路径</td>
-</tr>
-<tr>
-<td align="center">shuffle_seed</td>
-<td align="center">用来进行shuffle的seed值</td>
-</tr>
-</tbody>
-</table></div><p>数据处理</p>
-<div class="wy-table-responsive"><table border="1" class="docutils">
-<thead>
-<tr>
-<th align="center">功能名字</th>
-<th align="center">参数名字</th>
-<th align="center">具体含义</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">DecodeImage</td>
-<td align="center">to_rgb</td>
-<td align="center">数据转RGB</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center">to_np</td>
-<td align="center">数据转numpy</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center">channel_first</td>
-<td align="center">按CHW排列的图片数据</td>
-</tr>
-<tr>
-<td align="center">RandCropImage</td>
-<td align="center">size</td>
-<td align="center">随机裁剪</td>
-</tr>
-<tr>
-<td align="center">RandFlipImage</td>
-<td align="center"></td>
-<td align="center">随机翻转</td>
-</tr>
-<tr>
-<td align="center">NormalizeImage</td>
-<td align="center">scale</td>
-<td align="center">归一化scale值</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center">mean</td>
-<td align="center">归一化均值</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center">std</td>
-<td align="center">归一化方差</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center">order</td>
-<td align="center">归一化顺序</td>
-</tr>
-<tr>
-<td align="center">ToCHWImage</td>
-<td align="center"></td>
-<td align="center">调整为CHW</td>
-</tr>
-<tr>
-<td align="center">CropImage</td>
-<td align="center">size</td>
-<td align="center">裁剪大小</td>
-</tr>
-<tr>
-<td align="center">ResizeImage</td>
-<td align="center">resize_short</td>
-<td align="center">按短边调整大小</td>
-</tr>
-</tbody>
-</table></div><p>mix处理</p>
-<div class="wy-table-responsive"><table border="1" class="docutils">
-<thead>
-<tr>
-<th align="center">参数名字</th>
-<th align="center">具体含义</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">MixupOperator.alpha</td>
-<td align="center">mixup处理中的alpha值</td>
-</tr>
-</tbody>
-</table></div></div>
-</div>
-</div>
+                        <section id="welcome-to-entropy-theory-s-lab">
+                            <h1>Welcome to Entropy theory’s Lab!<a class="headerlink" href="#welcome-to-entropy-theory-s-lab" title="此标题的永久链接"></a></h1>
+                            <section id="id1">
+                                <h2>Copyright notice<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h2>
+                                <div class="admonition warning">
+                                    <p class="admonition-title">警告</p>
+                                    <p>Welcome to download and edit (personal use), but without the consent of the author must retain this statement, and not for commercial use, otherwise reserve the right to pursue legal responsibility.</p>
+                                    <ul class="simple">
+                                        <li>
+                                            <p>author：IMLAB</p>
+                                        </li>
+                                        <li>
+                                            <p>Blog:<a class="reference external" target="_blank" rel="noopener" href="https://github.com/609520262/Deploy-static-content-to-Pages/">https://github.com/609520262/Deploy-static-content-to-Pages/</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Github：<a class="reference external" target="_blank" rel="noopener" href="https://github.com/609520262/Deploy-static-content-to-Pages/">https://github.com/609520262/Deploy-static-content-to-Pages/</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                 <h2>introduction<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h2>
+                                 <p>The condition monitoring of rolling bearings can reduce the loss of life and property and eliminate mechanical failures in time. However, the traditional time-domain feature extraction methods often can not effectively extract hidden fault features, resulting in a low fault recognition rate. As a nonlinear measure, entropy can quantify the regularity or order of a given time series. When the rotating machinery fails, there will be amplitude and frequency modulation phenomenon, resulting in a change in complexity. The complexity change of complexity degree will directly affect entropy. Therefore, the entropy method can detect early failures and further identify different fault types of bearings. In recent years, some entropy methods have been widely used, It includes approximate entropy (AE), sample entropy (SE), fuzzy entropy (FE) and permutation entropy (PE). Unfortunately, a common problem with the above methods is that these entropy methods do not detect early failures. In addition, these entropy methods have higher time complexity but lower computational efficiency. In order to solve the above shortcomings, the entropy method proposed by Li et al is first combined with symbolic dynamic filtering (SDF). SDF converts the original time series into symbolic time series, which can better alleviate the environmental noise and simplify the calculation cycle. Based on this, Li et al proposed an entropy method based on SDF, including symbolic dynamic entropy (SDE), symbolic fuzzy entropy (SFE), symbolic diversity entropy (SDivE), Rostaghi et al proposed dispersion entropy (DE), and Wang et al proposed cumulative residual symbolic dispersion entropy (CRSDE).</p>
+                                
+                            </section>
+                           
 
 
-           </div>
-           
-          </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="../models/index.html" class="btn btn-neutral float-right" title="模型库" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="getting_started.html" class="btn btn-neutral float-left" title="开始使用" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
-  
+                    </div>
+                </div>
+                <footer>
+                    <div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+                        <a href="./install.html" class="btn btn-neutral float-right" title="安装说明" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+                    </div>
 
-  <hr><div><div id="rtd-sidebar" data-ea-publisher="readthedocs" data-ea-type="readthedocs-sidebar" data-ea-manual="true" class="ethical-rtd" data-ea-keywords="only words|paddleclas|readthedocs-project-593273|readthedocs-project-paddleclas" data-ea-campaign-types="community|house|paid"></div></div>
+                    <hr/>
 
-  
-</footer>
+                   
 
+
+                </footer>
+            </div>
         </div>
-      </div>
-
     </section>
+   
 	
 	
 	
-
                                 <aside class="toc">
                                     <nav>
                                         <div class="document-toc-container">
